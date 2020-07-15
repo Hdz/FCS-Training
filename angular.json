@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "fcs-training"
+    }
+  },
+  "defaultProject": "fcs-training",
+  "cli": {
+    "analytics": false
+  }
 }
