@@ -1,0 +1,9 @@
+mat-panel-description{
+background-image: url('../../assets/images/logo.png');
+margin: center;
+background-image: inherit;
+background-image: initial;
+background-image: unset;
+background-color: transparent;
+
+}
