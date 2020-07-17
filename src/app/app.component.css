@@ -149,12 +149,12 @@
   a,
   a:visited,
   a:hover {
-    color: #096a09;
+    color: #fff;
     text-decoration: none;
   }
 
   a:hover {
-    color: #096a09;
+    color: #fff;
   }
 
   .terminal {
@@ -286,3 +286,29 @@
       visibility: hidden;
     }
   }
+
+  
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+mat-sidenav {
+    width: 280px;
+    padding:15px;
+
+}
+.mat-drawer { 
+    background-color: #096a09;
+    color:#fff
+}
+.main-content {
+    padding:20px;
+    background-color: #096a09;
+    color:#fff
+}
+.toolbar-spacer {
+    flex: 1 1 auto;
+}
+mat-icon {
+  margin : left;
+  padding:15px;
+
+}
