@@ -4,9 +4,8 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { AlimentationComponent } from './alimentation/alimentation.component';
 import { EntrainementComponent } from './entrainement/entrainement.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MAT_LABEL_GLOBAL_OPTIONS, MatNativeDateModule, MAT_DATE_LOCALE } from '@angular/material/core';
+import { MatNativeDateModule } from '@angular/material/core';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatBadgeModule } from '@angular/material/badge';
 import { MatButtonModule } from '@angular/material/button';
@@ -44,6 +43,15 @@ import { IntroComponent } from './intro/intro.component';
 import { SommaireComponent } from './sommaire/sommaire.component';
 import { RevisionsComponent } from './revisions/revisions.component';
 import { InformationsComponent } from './informations/informations.component';
+import { AlertModule } from 'ngx-bootstrap/alert';
+import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown'; 
+import { ModalModule } from 'ngx-bootstrap/modal';  
+import { PopoverModule } from 'ngx-bootstrap/popover'; 
+import { CommonModule } from '@angular/common';
+import { TooltipModule } from 'ngx-bootstrap/tooltip';
+import { MatIconModule } from '@angular/material/icon';
+import { ResponsiveSidenavModule } from "./responsive-sidenav/responsive-sidenav.module";
 
 @NgModule({
   declarations: [
@@ -55,6 +63,13 @@ import { InformationsComponent } from './informations/informations.component';
     InformationsComponent
   ],
   imports: [
+    CommonModule, 
+    AlertModule.forRoot(), 
+    BsDatepickerModule.forRoot(), 
+    BsDropdownModule.forRoot(), 
+    ModalModule.forRoot(), 
+    TooltipModule.forRoot(),
+    PopoverModule.forRoot(),
     BrowserModule,
     RouterModule.forRoot([
       {path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -65,6 +80,7 @@ import { InformationsComponent } from './informations/informations.component';
       {path: 'sommaire', component: SommaireComponent},
       {path: 'revisions', component: RevisionsComponent},
       {path: 'informations', component: InformationsComponent}
+      
 
     ]),
     BrowserAnimationsModule,
@@ -100,9 +116,13 @@ import { InformationsComponent } from './informations/informations.component';
     MatTableModule,
     MatTabsModule,
     MatTooltipModule,
-    MatTreeModule
+    MatTreeModule,
+    MatIconModule,
+    ResponsiveSidenavModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
+  
 })
 export class AppModule { }

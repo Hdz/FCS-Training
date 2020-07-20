@@ -1,7 +1,7 @@
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
 <div class="content" role="main">
-  <mat-sidenav-container fullscreen>
-    
-    <mat-sidenav mode="side" #sidenav opened position="start">
+  <mat-sidenav-container fullscreen >
+    <mat-sidenav [permanentAt]="960" #start [mode]="'side'">
      <nav>
       <a class="" routerLink="/home"><img
       width="145"
@@ -9,7 +9,6 @@
       /></a>
       <hr>
       <br />
-
       <a class="button" routerLink="/home">Accueil</a>
       <br />
       <br />
@@ -30,10 +29,7 @@
      <br />
      <a class="button" routerLink="/revisions">Revisions</a>
     </nav>
-
-
     </mat-sidenav>
-
     <mat-sidenav-content>
       <mat-toolbar color="">
         <div class="toolbar" role="banner">
@@ -50,9 +46,8 @@
             </svg>
           </a>
         </div>
-        <button mat-icon-button (click)="sidenav.toggle()">
-        </button>
-          
+        <button mat-icon-button (click)="start.toggle()">
+        </button>   
       </mat-toolbar>
       <div class="main-content">
       </div>
@@ -60,7 +55,6 @@
       <footer>
       </footer>
     </mat-sidenav-content>
- 
   </mat-sidenav-container>
 
 </div>
