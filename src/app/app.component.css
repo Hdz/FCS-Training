@@ -19,7 +19,7 @@
 
   p {
     margin: 0;
-  }
+    text-align: justify;  }
 
   .spacer {
     flex: 1;
