@@ -52,6 +52,8 @@ import { CommonModule } from '@angular/common';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { MatIconModule } from '@angular/material/icon';
 import { ResponsiveSidenavModule } from "./responsive-sidenav/responsive-sidenav.module";
+import { TactiqueComponent } from './tactique/tactique.component';
+import { DefisTechniqueComponent } from './defis-technique/defis-technique.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +62,9 @@ import { ResponsiveSidenavModule } from "./responsive-sidenav/responsive-sidenav
     IntroComponent,
     SommaireComponent,
     RevisionsComponent,
-    InformationsComponent
+    InformationsComponent,
+    TactiqueComponent,
+    DefisTechniqueComponent
   ],
   imports: [
     CommonModule, 
@@ -79,7 +83,10 @@ import { ResponsiveSidenavModule } from "./responsive-sidenav/responsive-sidenav
       {path: 'intro', component: IntroComponent},
       {path: 'sommaire', component: SommaireComponent},
       {path: 'revisions', component: RevisionsComponent},
-      {path: 'informations', component: InformationsComponent}
+      {path: 'informations', component: InformationsComponent},
+      {path: 'tactique', component: TactiqueComponent},
+      {path: 'defis-technique', component: DefisTechniqueComponent},
+
       
 
     ]),

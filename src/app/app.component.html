@@ -20,18 +20,39 @@
      <br />
      <hr>
      <br />
-      <a class="button" routerLink="/informations">Informations</a>
-      <br />
+     <mat-accordion>
+      <mat-expansion-panel class="mat-elevation-z0" >
+        <mat-expansion-panel-header class="panel">Informations</mat-expansion-panel-header>
+        <br />
+        <a class="button-wrapInfo" routerLink="/entrainement">Calendrier pré-saison</a>
+          <br />
+          <br />
+          <a class="button-wrapInfo" routerLink="/defis-technique">Calendrier saison 2020-2021</a>
+      </mat-expansion-panel>
+    </mat-accordion>      <br />
       <hr>
       <br />
       <a class="button" routerLink="/alimentation">Alimentation</a>
       <br />
       <hr>
       <br />
-     <a class="button" routerLink="/entrainement">Entrainement</a>
+      <mat-accordion>
+        <mat-expansion-panel class="mat-elevation-z0" >
+          <mat-expansion-panel-header class="panel">Entrainement</mat-expansion-panel-header>
+          <br />
+          <a class="button-wrap" routerLink="/entrainement">Préparation physique</a>
+            <br />
+            <br />
+            <a class="button-wrap" routerLink="/defis-technique">Defis technique</a>
+        </mat-expansion-panel>
+      </mat-accordion>
+
      <br />
      <hr>
-
+     <br />     
+     <a class="button-wrap" routerLink="/tactique">Tactique</a>
+     <br />
+     <hr>
      <br />
      <a class="button" routerLink="/revisions">Revisions</a>
     </nav>

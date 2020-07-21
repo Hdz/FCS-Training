@@ -290,7 +290,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 mat-sidenav {
-    width: 200px;
+    width: 250px;
     padding:20px;
 
 }
@@ -321,6 +321,43 @@ mat-sidenav {
   min-height: 100vh;
   transition: all 0.3s;
   
+}
+
+.button-wrap {
+  font-size: 18px;
+  font-weight: 600;
+  background : #096a09 !important;
+}
+
+.button-wrapinfo {
+  font-size: 18px;
+  background : #096a09 !important;
+}
+
+mat-expansion-panel-header{
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff !important;
+  padding-left :  -10px;
+  background : #096a09 !important; 
+}
+mat-expansion-panel{
+  font-size: 18px;
+  color: #fff !important;
+  padding-left :  -10px;
+  background : #096a09 !important;
+  
+}
+.panel{
+  padding : 0px;
+  font-size: 18px;
+}
+mat-expansion-panel.hover{
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff !important;  width: 20%;
+  padding: 20px;
+  transition: all 0.3s;
 }
 
 #main-content {
