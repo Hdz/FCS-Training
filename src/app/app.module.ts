@@ -64,7 +64,8 @@ import { DefisTechniqueComponent } from './defis-technique/defis-technique.compo
     RevisionsComponent,
     InformationsComponent,
     TactiqueComponent,
-    DefisTechniqueComponent
+    DefisTechniqueComponent,
+    EntrainementComponent
   ],
   imports: [
     CommonModule, 
@@ -129,7 +130,45 @@ import { DefisTechniqueComponent } from './defis-technique/defis-technique.compo
 
   ],
   providers: [],
-  bootstrap: [AppComponent]
-  
+  bootstrap: [AppComponent],
+  exports: [
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatSidenavModule,
+    MatListModule,
+    MatButtonModule,
+    MatNativeDateModule, 
+    MatAutocompleteModule,
+    MatBadgeModule,
+    MatButtonToggleModule,
+    MatCardModule,
+    MatCheckboxModule,
+    MatChipsModule,
+    MatStepperModule,
+    MatDatepickerModule,
+    MatDialogModule,
+    MatExpansionModule,
+    MatFormFieldModule,
+    MatGridListModule,
+    MatInputModule,
+    MatMenuModule,
+    MatPaginatorModule,
+    MatProgressBarModule,
+    MatProgressSpinnerModule,
+    MatRadioModule,
+    MatRippleModule,
+    MatSelectModule,
+    MatSliderModule,
+    MatSlideToggleModule,
+    MatSnackBarModule,
+    MatSortModule,
+    MatTableModule,
+    MatTabsModule,
+    MatTooltipModule,
+    MatTreeModule,
+    MatIconModule,
+    ResponsiveSidenavModule
+  ]
+
 })
 export class AppModule { }

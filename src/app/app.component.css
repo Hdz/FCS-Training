@@ -1,5 +1,4 @@
 :host {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 14px;
     color: #333;
     box-sizing: border-box;
@@ -152,6 +151,7 @@
   a:visited,
   a:hover {
     color: #fff;
+    
     text-decoration: none;
         width: 80px;
 
@@ -162,9 +162,6 @@
     transition: all 0.3s;
   }
 
-  a:hover {
-    color: #fff;
-  }
 
   .terminal {
     position: relative;
@@ -221,41 +218,6 @@
 
 
 
-  .github-star-badge {
-    color: #24292e;
-    display: flex;
-    align-items: center;
-    font-size: 12px;
-    padding: 3px 10px;
-    border: 1px solid rgba(27,31,35,.2);
-    border-radius: 3px;
-    background-image: linear-gradient(-180deg,#fafbfc,#eff3f6 90%);
-    margin-left: 4px;
-    font-weight: 600;
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
-  }
-
-  .github-star-badge:hover {
-    background-image: linear-gradient(-180deg,#f0f3f6,#e6ebf1 90%);
-    border-color: rgba(27,31,35,.35);
-    background-position: -.5em;
-  }
-
-  .github-star-badge .material-icons {
-    height: 16px;
-    width: 16px;
-    margin-right: 4px;
-  }
-
-  svg#clouds {
-    position: fixed;
-    bottom: -160px;
-    left: -230px;
-    z-index: -10;
-    width: 1920px;
-  }
-
-
   /* Responsive Styles */
   @media screen and (max-width: 767px) {
 
@@ -310,13 +272,10 @@ mat-sidenav {
 .button {
   font-size: 18px;
   font-weight: 600;
-  background : #096a09 !important;
-
 }
 .button:hover {
   font-size: 18px;
   font-weight: 600;
-  color: #fff !important;  width: 20%;
   padding: 20px;
   min-height: 100vh;
   transition: all 0.3s;
@@ -324,23 +283,32 @@ mat-sidenav {
 }
 
 .button-wrap {
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 14px;
   background : #096a09 !important;
+  font-weight: 200;
+
 }
 
 .button-wrapinfo {
-  font-size: 18px;
+  font-size: 14px;
   background : #096a09 !important;
 }
 
 mat-expansion-panel-header{
   font-size: 18px;
-  font-weight: 600;
   color: #fff !important;
   padding-left :  -10px;
   background : #096a09 !important; 
 }
+
+mat-expansion-panel-header:hover{
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.3s;
+  padding : 20px;
+}
+
+
 mat-expansion-panel{
   font-size: 18px;
   color: #fff !important;
@@ -348,17 +316,15 @@ mat-expansion-panel{
   background : #096a09 !important;
   
 }
+
+
 .panel{
   padding : 0px;
   font-size: 18px;
-}
-mat-expansion-panel.hover{
-  font-size: 18px;
-  font-weight: 600;
-  color: #fff !important;  width: 20%;
-  padding: 20px;
   transition: all 0.3s;
+
 }
+
 
 #main-content {
   width: 100%;

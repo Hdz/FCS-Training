@@ -1,33 +1,43 @@
 <br />
 <div class="main-content">
-<a class="button" routerLink="/home">Accueil</a>
+  <nav>
+    <div style="text-align: center;"><a class="" routerLink="/home"><img
+    width="145" 
+    src="./assets/images/logo.png"
+    /></a></div>
+    <hr>
+    <a class="button" routerLink="/home">Accueil</a>
+    <hr>
+    <a class="button" routerLink="/sommaire">Sommaire</a>
+   <hr>
+   <a class="button" routerLink="/intro">Intro</a>   
+   <hr>
+   <mat-accordion>
+    <mat-expansion-panel class="mat-elevation-z0" >
+      <mat-expansion-panel-header class="panel">Informations</mat-expansion-panel-header>
       <br />
-      <hr>
-      <br />
-     <a class="button" routerLink="/sommaire">Sommaire</a>
-     <br />
-     <hr>
-     <br />
-     <a class="button" routerLink="/intro">Intro</a>   
-     <br />
-     <hr>
-     <br />
-      <a class="button" routerLink="/informations">Informations</a>
-      <br />
-      <hr>
-      <br />
-      <a class="button" routerLink="/alimentation">Alimentation</a>
-      <br />
-      <hr>
-      <br />
-      <mat-accordion>
-        <mat-expansion-panel class="mat-elevation-z0" >
-          <mat-expansion-panel-header>Entrainement</mat-expansion-panel-header>
+      <a class="button-wrapInfo" routerLink="/entrainement">Calendrier pré-saison</a>
+        <br />
+        <br />
+        <a class="button-wrapInfo" routerLink="/defis-technique">Calendrier saison 2020-2021</a>
+    </mat-expansion-panel>
+  </mat-accordion>
+    <hr>
+    <a class="button" routerLink="/alimentation">Alimentation</a>
+    <hr>
+    <mat-accordion>
+      <mat-expansion-panel class="mat-elevation-z0" >
+        <mat-expansion-panel-header class="panel">Entrainement</mat-expansion-panel-header>
+        <br />
+        <a class="button-wrap" routerLink="/entrainement">Préparation physique</a>
           <br />
-          <a class="button-wrap" routerLink="/entrainement">Entrainement</a>
-            <br />
-            <br />
-            <a class="button-wrap" routerLink="/tactique">Tactique</a>
-            </mat-expansion-panel>
-      </mat-accordion>
+          <br />
+          <a class="button-wrap" routerLink="/defis-technique">Defis technique</a>
+      </mat-expansion-panel>
+    </mat-accordion>
+   <hr>
+   <a class="button" routerLink="/tactique">Tactique</a>
+   <hr>
+   <a class="button" routerLink="/revisions">Revisions</a>
+  </nav>
 </div>
