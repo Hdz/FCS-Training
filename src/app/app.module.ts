@@ -92,7 +92,7 @@ import { CalendrierComponent } from './calendrier/calendrier.component';
     TooltipModule.forRoot(),
     PopoverModule.forRoot(),
     BrowserModule,
-    RouterModule.forRoot([
+    RouterModule.forRoot(routes, { useHash: true },
       {path: '', redirectTo: '/home', pathMatch: 'full'},
       {path: 'home', component: HomeComponent},
       {path: 'alimentation', component: AlimentationComponent},
