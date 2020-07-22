@@ -92,7 +92,7 @@ import { CalendrierComponent } from './calendrier/calendrier.component';
     TooltipModule.forRoot(),
     PopoverModule.forRoot(),
     BrowserModule,
-    RouterModule.forRoot(routes, { useHash: true },
+    RouterModule.forRoot([ 
       {path: '', redirectTo: '/home', pathMatch: 'full'},
       {path: 'home', component: HomeComponent},
       {path: 'alimentation', component: AlimentationComponent},
@@ -111,6 +111,7 @@ import { CalendrierComponent } from './calendrier/calendrier.component';
       {path: 'presse', component: PresseComponent},
       {path: 'presaison', component: PresaisonComponent},
       {path: 'calendrier', component: CalendrierComponent},
+      {path: '**', redirectTo: '/home', pathMatch: 'full'},
 
       
 
