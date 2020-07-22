@@ -54,6 +54,14 @@ import { MatIconModule } from '@angular/material/icon';
 import { ResponsiveSidenavModule } from "./responsive-sidenav/responsive-sidenav.module";
 import { TactiqueComponent } from './tactique/tactique.component';
 import { DefisTechniqueComponent } from './defis-technique/defis-technique.component';
+import { AttaquesComponent } from './attaques/attaques.component';
+import { CoupsFrancsComponent } from './coups-francs/coups-francs.component';
+import { DefenseComponent } from './defense/defense.component';
+import { CornersComponent } from './corners/corners.component';
+import { TouchesComponent } from './touches/touches.component';
+import { PresseComponent } from './presse/presse.component';
+import { PresaisonComponent } from './presaison/presaison.component';
+import { CalendrierComponent } from './calendrier/calendrier.component';
 
 @NgModule({
   declarations: [
@@ -65,7 +73,15 @@ import { DefisTechniqueComponent } from './defis-technique/defis-technique.compo
     InformationsComponent,
     TactiqueComponent,
     DefisTechniqueComponent,
-    EntrainementComponent
+    EntrainementComponent,
+    AttaquesComponent,
+    CoupsFrancsComponent,
+    DefenseComponent,
+    CornersComponent,
+    TouchesComponent,
+    PresseComponent,
+    PresaisonComponent,
+    CalendrierComponent
   ],
   imports: [
     CommonModule, 
@@ -87,6 +103,14 @@ import { DefisTechniqueComponent } from './defis-technique/defis-technique.compo
       {path: 'informations', component: InformationsComponent},
       {path: 'tactique', component: TactiqueComponent},
       {path: 'defis-technique', component: DefisTechniqueComponent},
+      {path: 'attaque', component: AttaquesComponent},
+      {path: 'defense', component: DefenseComponent},
+      {path: 'coups-francs', component: CoupsFrancsComponent},
+      {path: 'corners', component: CornersComponent},
+      {path: 'touches', component: TouchesComponent},
+      {path: 'presse', component: PresseComponent},
+      {path: 'presaison', component: PresaisonComponent},
+      {path: 'calendrier', component: CalendrierComponent},
 
       
 
