@@ -140,6 +140,36 @@
     filter: grayscale(0%);
 
 }
+
+.img7{
+    background-image: url('src/assets/images/tactique.jpg');
+    transition: 1s ease-out;
+    filter: grayscale(90%);
+}
+.img7:hover{
+    filter: grayscale(0%);
+
+}
+
+.img8{
+    background-image: url('src/assets/images/regles.png');
+    transition: 1s ease-out;
+    filter: grayscale(90%);
+}
+.img8:hover{
+    filter: grayscale(0%);
+
+}
+
+.img10{
+    background-image: url('src/assets/images/revision.jpg');
+    transition: 1s ease-out;
+    filter: grayscale(90%);
+}
+.img10:hover{
+    filter: grayscale(0%);
+
+}
 /*  following just for the demo */
 
 

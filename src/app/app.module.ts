@@ -62,6 +62,8 @@ import { TouchesComponent } from './touches/touches.component';
 import { PresseComponent } from './presse/presse.component';
 import { PresaisonComponent } from './presaison/presaison.component';
 import { CalendrierComponent } from './calendrier/calendrier.component';
+import { LoisComponent } from './lois/lois.component';
+import { PrepaPhysiqueComponent } from './prepa-physique/prepa-physique.component';
 
 @NgModule({
   declarations: [
@@ -81,7 +83,9 @@ import { CalendrierComponent } from './calendrier/calendrier.component';
     TouchesComponent,
     PresseComponent,
     PresaisonComponent,
-    CalendrierComponent
+    CalendrierComponent,
+    LoisComponent,
+    PrepaPhysiqueComponent
   ],
   imports: [
     CommonModule, 
@@ -111,6 +115,8 @@ import { CalendrierComponent } from './calendrier/calendrier.component';
       {path: 'presse', component: PresseComponent},
       {path: 'presaison', component: PresaisonComponent},
       {path: 'calendrier', component: CalendrierComponent},
+      {path: 'lois', component: LoisComponent},
+      {path: 'prepa-physique', component: PrepaPhysiqueComponent},
       {path: '**', redirectTo: '/home', pathMatch: 'full'},
 
       
