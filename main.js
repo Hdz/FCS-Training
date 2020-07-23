@@ -172,7 +172,7 @@ class AppComponent {
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 84, vars: 2, consts: [["href", "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css", "rel", "stylesheet"], ["fullscreen", ""], [3, "permanentAt", "mode"], ["start", ""], ["routerLink", "/home", 1, ""], ["width", "145", "src", "./assets/images/logo.png"], ["routerLink", "/home", 1, "button"], ["routerLink", "/sommaire", 1, "button"], ["routerLink", "/intro", 1, "button"], [1, "mat-elevation-z0"], [1, "panel"], ["routerLink", "/presaison", 1, "button-wrapInfo"], ["routerLink", "/calendrier", 1, "button-wrapInfo"], ["routerLink", "/alimentation", 1, "button"], ["routerLink", "/entrainement", 1, "button-wrap"], ["routerLink", "/defis-technique", 1, "button-wrap"], ["routerLink", "/attaque", 1, "button-wrapInfo"], ["routerLink", "/defense", 1, "button-wrapInfo"], ["routerLink", "/corners", 1, "button-wrapInfo"], ["routerLink", "/coups-francs", 1, "button-wrapInfo"], ["routerLink", "/touches", 1, "button-wrapInfo"], ["routerLink", "/presse", 1, "button-wrapInfo"], ["routerLink", "/revisions", 1, "button"], ["color", ""], ["role", "banner", 1, "toolbar"], ["width", "40", "src", "./assets/images/logo.png"], [1, "spacer"], ["aria-label", "Angular on twitter", "target", "_blank", "rel", "noopener", "href", "https://twitter.com/FCSuceen", "title", "Twitter"], ["id", "twitter-logo", "height", "24", "data-name", "Logo", "xmlns", "http://www.w3.org/2000/svg", "viewBox", "0 0 400 400"], ["width", "400", "height", "400", "fill", "none"], ["d", "M153.62,301.59c94.34,0,145.94-78.16,145.94-145.94,0-2.22,0-4.43-.15-6.63A104.36,104.36,0,0,0,325,122.47a102.38,102.38,0,0,1-29.46,8.07,51.47,51.47,0,0,0,22.55-28.37,102.79,102.79,0,0,1-32.57,12.45,51.34,51.34,0,0,0-87.41,46.78A145.62,145.62,0,0,1,92.4,107.81a51.33,51.33,0,0,0,15.88,68.47A50.91,50.91,0,0,1,85,169.86c0,.21,0,.43,0,.65a51.31,51.31,0,0,0,41.15,50.28,51.21,51.21,0,0,1-23.16.88,51.35,51.35,0,0,0,47.92,35.62,102.92,102.92,0,0,1-63.7,22A104.41,104.41,0,0,1,75,278.55a145.21,145.21,0,0,0,78.62,23", "fill", "#fff"], ["mat-icon-button", "", 3, "click"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 87, vars: 2, consts: [["href", "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css", "rel", "stylesheet"], ["fullscreen", ""], [3, "permanentAt", "mode"], ["start", ""], ["routerLink", "/home", 1, ""], ["width", "145", "src", "./assets/images/logo.png"], ["routerLink", "/home", 1, "button"], ["routerLink", "/sommaire", 1, "button"], ["routerLink", "/intro", 1, "button"], ["routerLink", "/lois", 1, "button"], [1, "mat-elevation-z0"], [1, "panel"], ["routerLink", "/presaison", 1, "button-wrapInfo"], ["routerLink", "/calendrier", 1, "button-wrapInfo"], ["routerLink", "/alimentation", 1, "button"], ["routerLink", "/entrainement", 1, "button-wrap"], ["routerLink", "/defis-technique", 1, "button-wrap"], ["routerLink", "/attaque", 1, "button-wrapInfo"], ["routerLink", "/defense", 1, "button-wrapInfo"], ["routerLink", "/corners", 1, "button-wrapInfo"], ["routerLink", "/coups-francs", 1, "button-wrapInfo"], ["routerLink", "/touches", 1, "button-wrapInfo"], ["routerLink", "/presse", 1, "button-wrapInfo"], ["routerLink", "/revisions", 1, "button"], ["color", ""], ["role", "banner", 1, "toolbar"], ["width", "40", "src", "./assets/images/logo.png"], [1, "spacer"], ["aria-label", "Angular on twitter", "target", "_blank", "rel", "noopener", "href", "https://twitter.com/FCSuceen", "title", "Twitter"], ["id", "twitter-logo", "height", "24", "data-name", "Logo", "xmlns", "http://www.w3.org/2000/svg", "viewBox", "0 0 400 400"], ["width", "400", "height", "400", "fill", "none"], ["d", "M153.62,301.59c94.34,0,145.94-78.16,145.94-145.94,0-2.22,0-4.43-.15-6.63A104.36,104.36,0,0,0,325,122.47a102.38,102.38,0,0,1-29.46,8.07,51.47,51.47,0,0,0,22.55-28.37,102.79,102.79,0,0,1-32.57,12.45,51.34,51.34,0,0,0-87.41,46.78A145.62,145.62,0,0,1,92.4,107.81a51.33,51.33,0,0,0,15.88,68.47A50.91,50.91,0,0,1,85,169.86c0,.21,0,.43,0,.65a51.31,51.31,0,0,0,41.15,50.28,51.21,51.21,0,0,1-23.16.88,51.35,51.35,0,0,0,47.92,35.62,102.92,102.92,0,0,1-63.7,22A104.41,104.41,0,0,1,75,278.55a145.21,145.21,0,0,0,78.62,23", "fill", "#fff"], ["mat-icon-button", "", 3, "click"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         const _r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "link", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-sidenav-container", 1);
@@ -194,106 +194,110 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "Intro");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "hr");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "mat-accordion");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "mat-expansion-panel", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "mat-expansion-panel-header", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "Informations");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "a", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Lois de jeu");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "a", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Calendrier pr\u00E9-saison");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "mat-accordion");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "mat-expansion-panel", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "mat-expansion-panel-header", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Informations");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](24, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](25, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "a", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Calendrier saison 2020-2021");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "a", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "Calendrier pr\u00E9-saison");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](28, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](28, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "a", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Alimentation");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Calendrier saison 2020-2021");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](31, "hr");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "mat-accordion");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "mat-expansion-panel", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "mat-expansion-panel-header", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Entrainement");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "a", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "Alimentation");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "a", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, "Pr\u00E9paration physique");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](34, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "mat-accordion");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "mat-expansion-panel", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "mat-expansion-panel-header", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, "Entrainement");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](39, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](40, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "a", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, "Defis technique");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "a", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "Pr\u00E9paration physique");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](42, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "a", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "Defis technique");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "hr");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "mat-accordion");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "mat-expansion-panel", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "mat-expansion-panel-header", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "Tactique");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](48, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "a", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, "Attaques plac\u00E9es");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](46, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "mat-accordion");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "mat-expansion-panel", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "mat-expansion-panel-header", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, "Tactique");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](51, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "a", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, "D\u00E9fense");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, "Attaques plac\u00E9es");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](54, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "a", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, "Corners");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, "D\u00E9fense");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](57, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "a", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](59, "Coups-francs");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](59, "Corners");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](60, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "a", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](62, "Touches");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](62, "Coups-francs");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](63, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "a", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](65, "Sorti de presse");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](65, "Touches");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](66, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](66, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "a", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](68, "Revisions");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](68, "Sorti de presse");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "mat-sidenav-content");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "mat-toolbar", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "div", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](72, "img", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "span");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, "Bienvenue sur le FCS Training");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](69, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "a", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](71, "Revisions");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](76, "div", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "a", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "mat-sidenav-content");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "mat-toolbar", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](75, "img", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "a", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "span");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](78, "Bienvenue sur le FCS Training");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](79, "div", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "a", 28);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](78, "svg", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](79, "rect", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](80, "path", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "svg", 29);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](82, "rect", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](83, "path", 31);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceHTML"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "button", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_Template_button_click_81_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r1); const _r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](3); return _r0.toggle(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "button", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_Template_button_click_84_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r1); const _r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](3); return _r0.toggle(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](82, "router-outlet");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](83, "footer");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](85, "router-outlet");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](86, "footer");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
@@ -385,6 +389,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _presse_presse_component__WEBPACK_IMPORTED_MODULE_60__ = __webpack_require__(/*! ./presse/presse.component */ "./src/app/presse/presse.component.ts");
 /* harmony import */ var _presaison_presaison_component__WEBPACK_IMPORTED_MODULE_61__ = __webpack_require__(/*! ./presaison/presaison.component */ "./src/app/presaison/presaison.component.ts");
 /* harmony import */ var _calendrier_calendrier_component__WEBPACK_IMPORTED_MODULE_62__ = __webpack_require__(/*! ./calendrier/calendrier.component */ "./src/app/calendrier/calendrier.component.ts");
+/* harmony import */ var _lois_lois_component__WEBPACK_IMPORTED_MODULE_63__ = __webpack_require__(/*! ./lois/lois.component */ "./src/app/lois/lois.component.ts");
+/* harmony import */ var _prepa_physique_prepa_physique_component__WEBPACK_IMPORTED_MODULE_64__ = __webpack_require__(/*! ./prepa-physique/prepa-physique.component */ "./src/app/prepa-physique/prepa-physique.component.ts");
+
+
 
 
 
@@ -488,6 +496,8 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                 { path: 'presse', component: _presse_presse_component__WEBPACK_IMPORTED_MODULE_60__["PresseComponent"] },
                 { path: 'presaison', component: _presaison_presaison_component__WEBPACK_IMPORTED_MODULE_61__["PresaisonComponent"] },
                 { path: 'calendrier', component: _calendrier_calendrier_component__WEBPACK_IMPORTED_MODULE_62__["CalendrierComponent"] },
+                { path: 'lois', component: _lois_lois_component__WEBPACK_IMPORTED_MODULE_63__["LoisComponent"] },
+                { path: 'prepa-physique', component: _prepa_physique_prepa_physique_component__WEBPACK_IMPORTED_MODULE_64__["PrepaPhysiqueComponent"] },
                 { path: '**', redirectTo: '/home', pathMatch: 'full' },
             ]),
             _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_6__["BrowserAnimationsModule"],
@@ -578,7 +588,9 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
         _touches_touches_component__WEBPACK_IMPORTED_MODULE_59__["TouchesComponent"],
         _presse_presse_component__WEBPACK_IMPORTED_MODULE_60__["PresseComponent"],
         _presaison_presaison_component__WEBPACK_IMPORTED_MODULE_61__["PresaisonComponent"],
-        _calendrier_calendrier_component__WEBPACK_IMPORTED_MODULE_62__["CalendrierComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_49__["CommonModule"], ngx_bootstrap_alert__WEBPACK_IMPORTED_MODULE_44__["AlertModule"], ngx_bootstrap_datepicker__WEBPACK_IMPORTED_MODULE_45__["BsDatepickerModule"], ngx_bootstrap_dropdown__WEBPACK_IMPORTED_MODULE_46__["BsDropdownModule"], ngx_bootstrap_modal__WEBPACK_IMPORTED_MODULE_47__["ModalModule"], ngx_bootstrap_tooltip__WEBPACK_IMPORTED_MODULE_50__["TooltipModule"], ngx_bootstrap_popover__WEBPACK_IMPORTED_MODULE_48__["PopoverModule"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_6__["BrowserAnimationsModule"],
+        _calendrier_calendrier_component__WEBPACK_IMPORTED_MODULE_62__["CalendrierComponent"],
+        _lois_lois_component__WEBPACK_IMPORTED_MODULE_63__["LoisComponent"],
+        _prepa_physique_prepa_physique_component__WEBPACK_IMPORTED_MODULE_64__["PrepaPhysiqueComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_49__["CommonModule"], ngx_bootstrap_alert__WEBPACK_IMPORTED_MODULE_44__["AlertModule"], ngx_bootstrap_datepicker__WEBPACK_IMPORTED_MODULE_45__["BsDatepickerModule"], ngx_bootstrap_dropdown__WEBPACK_IMPORTED_MODULE_46__["BsDropdownModule"], ngx_bootstrap_modal__WEBPACK_IMPORTED_MODULE_47__["ModalModule"], ngx_bootstrap_tooltip__WEBPACK_IMPORTED_MODULE_50__["TooltipModule"], ngx_bootstrap_popover__WEBPACK_IMPORTED_MODULE_48__["PopoverModule"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_6__["BrowserAnimationsModule"],
         _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_36__["MatToolbarModule"],
         _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_29__["MatSidenavModule"],
         _angular_material_list__WEBPACK_IMPORTED_MODULE_22__["MatListModule"],
@@ -669,7 +681,9 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                     _touches_touches_component__WEBPACK_IMPORTED_MODULE_59__["TouchesComponent"],
                     _presse_presse_component__WEBPACK_IMPORTED_MODULE_60__["PresseComponent"],
                     _presaison_presaison_component__WEBPACK_IMPORTED_MODULE_61__["PresaisonComponent"],
-                    _calendrier_calendrier_component__WEBPACK_IMPORTED_MODULE_62__["CalendrierComponent"]
+                    _calendrier_calendrier_component__WEBPACK_IMPORTED_MODULE_62__["CalendrierComponent"],
+                    _lois_lois_component__WEBPACK_IMPORTED_MODULE_63__["LoisComponent"],
+                    _prepa_physique_prepa_physique_component__WEBPACK_IMPORTED_MODULE_64__["PrepaPhysiqueComponent"]
                 ],
                 imports: [
                     _angular_common__WEBPACK_IMPORTED_MODULE_49__["CommonModule"],
@@ -699,6 +713,8 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                         { path: 'presse', component: _presse_presse_component__WEBPACK_IMPORTED_MODULE_60__["PresseComponent"] },
                         { path: 'presaison', component: _presaison_presaison_component__WEBPACK_IMPORTED_MODULE_61__["PresaisonComponent"] },
                         { path: 'calendrier', component: _calendrier_calendrier_component__WEBPACK_IMPORTED_MODULE_62__["CalendrierComponent"] },
+                        { path: 'lois', component: _lois_lois_component__WEBPACK_IMPORTED_MODULE_63__["LoisComponent"] },
+                        { path: 'prepa-physique', component: _prepa_physique_prepa_physique_component__WEBPACK_IMPORTED_MODULE_64__["PrepaPhysiqueComponent"] },
                         { path: '**', redirectTo: '/home', pathMatch: 'full' },
                     ]),
                     _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_6__["BrowserAnimationsModule"],
@@ -1016,7 +1032,7 @@ class DefisTechniqueComponent {
     }
 }
 DefisTechniqueComponent.ɵfac = function DefisTechniqueComponent_Factory(t) { return new (t || DefisTechniqueComponent)(); };
-DefisTechniqueComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: DefisTechniqueComponent, selectors: [["app-defis-technique"]], decls: 25, vars: 0, consts: [[1, "text"], ["width", "420", "height", "315", "src", "https://www.youtube.com/embed/XyS6WoT1Tq8", "frameborder", "0", "allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", "", 1, "embed-responsive-item"], ["width", "420", "height", "315", "src", "https://www.youtube.com/embed/0_iinE5raNA", "frameborder", "0", "allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", "", 1, "embed-responsive-item"], ["width", "420", "height", "315", "src", "https://www.youtube.com/embed/L6kRn4YDvHw", "frameborder", "0", "allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", "", 1, "embed-responsive-item"], ["width", "420", "height", "315", "src", "https://www.youtube.com/embed/2WE_hB5d0xw", "frameborder", "0", "allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", "", 1, "embed-responsive-item"]], template: function DefisTechniqueComponent_Template(rf, ctx) { if (rf & 1) {
+DefisTechniqueComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: DefisTechniqueComponent, selectors: [["app-defis-technique"]], decls: 37, vars: 0, consts: [[1, "text"], ["width", "420", "height", "315", "src", "https://www.youtube.com/embed/XyS6WoT1Tq8", "frameborder", "0", "allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", "", 1, "embed-responsive-item"], ["width", "420", "height", "315", "src", "https://www.youtube.com/embed/0_iinE5raNA", "frameborder", "0", "allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", "", 1, "embed-responsive-item"], ["width", "420", "height", "315", "src", "https://www.youtube.com/embed/L6kRn4YDvHw", "frameborder", "0", "allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", "", 1, "embed-responsive-item"], ["width", "420", "height", "315", "src", "https://www.youtube.com/embed/2WE_hB5d0xw", "frameborder", "0", "allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", "", 1, "embed-responsive-item"]], template: function DefisTechniqueComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "strong");
@@ -1026,31 +1042,43 @@ DefisTechniqueComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵ
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Nous te proposons de travailler ta technique au travers de d\u00E9fis. Qui plus est, nous te proposons de te filmer et de partager les vid\u00E9os afin de te mettre en concurrence saine avec tes co\u00E9quipiers. Rien de plus simple avant le vendredi de la semaine en cours envoie sur WhatsApp ton pr\u00E9nom et ta vid\u00E9o \u00E0 Benjamin, L'un des coachs, au 0761108966. Les meilleurs vid\u00E9os seront post\u00E9es le samedi !");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Nous te proposons de travailler ta technique au travers de d\u00E9fis. Qui plus est, nous te proposons de te filmer et de partager les vid\u00E9os afin de te mettre en concurrence saine avec tes co\u00E9quipiers. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Rien de plus simple avant le vendredi de la semaine en cours envoie sur WhatsApp ton pr\u00E9nom et ta vid\u00E9o \u00E0 Benjamin, L'un des coachs, au 0761108966. Les meilleurs vid\u00E9os seront post\u00E9es le samedi !\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Semaine du 27 juillet 2020");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Semaine du 27 juillet 2020");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Nous sommes lundi 27 et tu as maintenant 5 jours et pas un de plus pour nous proposer ton plus beau combo de jonglages ! A vos ballons.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "\nNous sommes lundi 27 et tu as maintenant 5 jours et pas un de plus pour nous proposer ton plus beau combo de jonglages ! A vos ballons.\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](18, "iframe", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Semaine du 03 ao\u00FBt 2020");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "iframe", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Semaine du 03 ao\u00FBt 2020");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "Nous sommes Lundi 03 Aout, et c\u2019est parti pour le second chalenge technique : Tu as maintenant 5 jours et pas un de plus pour nous proposer un Stayathomechallenge !! L\u2019id\u00E9e est simple prend un rouleau de papier toilettes, jongle avec et surtout fini par une frappe cadr\u00E9e dans la cible de ton choix. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "iframe", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "Semaine du 10 ao\u00FBt 2020");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Nous sommes Lundi 10 Aout, et c\u2019est parti pour le troisi\u00E8me chalenge technique : Tu as maintenant 5 jours et pas un de plus pour apprendre et r\u00E9aliser l\u2019un de ces deux dribbles d\u2019anthologie !");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "iframe", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "\nNous sommes Lundi 03 Aout, et c\u2019est parti pour le second chalenge technique : Tu as maintenant 5 jours et pas un de plus pour nous proposer un Stayathomechallenge !! ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](24, "iframe", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "\nL\u2019id\u00E9e est simple prend un rouleau de papier toilettes, jongle avec et surtout fini par une frappe cadr\u00E9e dans la cible de ton choix.\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](25, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "iframe", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "Strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Semaine du 10 ao\u00FBt 2020");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "\nNous sommes Lundi 10 Aout, et c\u2019est parti pour le troisi\u00E8me chalenge technique : Tu as maintenant 5 jours et pas un de plus pour apprendre et r\u00E9aliser l\u2019un de ces deux dribbles d\u2019anthologie !\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](32, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](34, "iframe", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](35, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "iframe", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, styles: ["p[_ngcontent-%COMP%] {\n    text-align: justify;  \n}\nh1[_ngcontent-%COMP%] {\n    overflow: hidden; \n    border-right: .15em solid black; \n    white-space: nowrap; \n    margin: 0 auto; \n    letter-spacing: .15em; \n    animation: \n      typing 3.5s steps(40, end),\n      blink-caret .75s step-end infinite;\n    text-transform: uppercase;\n  }\n@keyframes typing {\n    from { width: 0 }\n    to { width: 100% }\n  }\n\n@keyframes blink-caret {\n    from, to { border-color: transparent }\n    50% { border-color: black; }\n  }\n.text[_ngcontent-%COMP%]{\n    padding-left : 2%;\n   }\niframe[_ngcontent-%COMP%]{\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZGVmaXMtdGVjaG5pcXVlL2RlZmlzLXRlY2huaXF1ZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksbUJBQW1CO0FBQ3ZCO0FBQ0E7SUFDSSxnQkFBZ0IsRUFBRSw0REFBNEQ7SUFDOUUsK0JBQStCLEVBQUUseUJBQXlCO0lBQzFELG1CQUFtQixFQUFFLHVDQUF1QztJQUM1RCxjQUFjLEVBQUUsc0RBQXNEO0lBQ3RFLHFCQUFxQixFQUFFLHFCQUFxQjtJQUM1Qzs7d0NBRW9DO0lBQ3BDLHlCQUF5QjtFQUMzQjtBQUVBO0lBQ0UsT0FBTyxTQUFTO0lBQ2hCLEtBQUssWUFBWTtFQUNuQjtBQUVBLGlDQUFpQztBQUNqQztJQUNFLFdBQVcsMEJBQTBCO0lBQ3JDLE1BQU0sbUJBQW1CLEVBQUU7RUFDN0I7QUFFQTtJQUNFLGlCQUFpQjtHQUNsQjtBQUVIO0lBQ0ksY0FBYztJQUNkLGlCQUFpQjtJQUNqQixrQkFBa0I7QUFDdEIiLCJmaWxlIjoic3JjL2FwcC9kZWZpcy10ZWNobmlxdWUvZGVmaXMtdGVjaG5pcXVlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJwIHtcbiAgICB0ZXh0LWFsaWduOiBqdXN0aWZ5OyAgXG59XG5oMSB7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjsgLyogRW5zdXJlcyB0aGUgY29udGVudCBpcyBub3QgcmV2ZWFsZWQgdW50aWwgdGhlIGFuaW1hdGlvbiAqL1xuICAgIGJvcmRlci1yaWdodDogLjE1ZW0gc29saWQgYmxhY2s7IC8qIFRoZSB0eXB3cml0ZXIgY3Vyc29yICovXG4gICAgd2hpdGUtc3BhY2U6IG5vd3JhcDsgLyogS2VlcHMgdGhlIGNvbnRlbnQgb24gYSBzaW5nbGUgbGluZSAqL1xuICAgIG1hcmdpbjogMCBhdXRvOyAvKiBHaXZlcyB0aGF0IHNjcm9sbGluZyBlZmZlY3QgYXMgdGhlIHR5cGluZyBoYXBwZW5zICovXG4gICAgbGV0dGVyLXNwYWNpbmc6IC4xNWVtOyAvKiBBZGp1c3QgYXMgbmVlZGVkICovXG4gICAgYW5pbWF0aW9uOiBcbiAgICAgIHR5cGluZyAzLjVzIHN0ZXBzKDQwLCBlbmQpLFxuICAgICAgYmxpbmstY2FyZXQgLjc1cyBzdGVwLWVuZCBpbmZpbml0ZTtcbiAgICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xuICB9XG5cbiAgQGtleWZyYW1lcyB0eXBpbmcge1xuICAgIGZyb20geyB3aWR0aDogMCB9XG4gICAgdG8geyB3aWR0aDogMTAwJSB9XG4gIH1cbiAgXG4gIC8qIFRoZSB0eXBld3JpdGVyIGN1cnNvciBlZmZlY3QgKi9cbiAgQGtleWZyYW1lcyBibGluay1jYXJldCB7XG4gICAgZnJvbSwgdG8geyBib3JkZXItY29sb3I6IHRyYW5zcGFyZW50IH1cbiAgICA1MCUgeyBib3JkZXItY29sb3I6IGJsYWNrOyB9XG4gIH1cblxuICAudGV4dHtcbiAgICBwYWRkaW5nLWxlZnQgOiAyJTtcbiAgIH1cbiAgIFxuaWZyYW1le1xuICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICAgIG1hcmdpbi1yaWdodDogYXV0bztcbn0iXX0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](DefisTechniqueComponent, [{
@@ -1077,6 +1105,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EntrainementComponent", function() { return EntrainementComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _angular_material_expansion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material/expansion */ "./node_modules/@angular/material/fesm2015/expansion.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+
 
 
 
@@ -1086,291 +1116,30 @@ class EntrainementComponent {
     }
 }
 EntrainementComponent.ɵfac = function EntrainementComponent_Factory(t) { return new (t || EntrainementComponent)(); };
-EntrainementComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: EntrainementComponent, selectors: [["app-entrainement"]], decls: 214, vars: 0, consts: [[1, "main-content"], [1, "text"], ["src", "./assets/images/etirements.jpg", "width", "350px;"], [1, "mat-elevation-z0"], [1, "panel"], ["src", "./assets/images/pompes.png", "width", "350px;", 1, "imgprepa"], ["src", "./assets/images/abdos.jpg", "width", "350px;", 1, "imgprepa"], ["src", "./assets/images/abdos2.jpg", "width", "350px;", 1, "imgprepa"], ["src", "./assets/images/quadri.jpg", "width", "350px;", 1, "imgprepa"], ["src", "./assets/images/burpees.jpg", "width", "350px;", 1, "imgprepa"]], template: function EntrainementComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "h1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "Pr\u00E9paration physique");
+EntrainementComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: EntrainementComponent, selectors: [["app-entrainement"]], decls: 15, vars: 0, consts: [[1, "main-content"], [1, "mat-elevation-z0"], [1, "panel"], ["routerLink", "/prepa-physique", 1, "button-wrap"], ["routerLink", "/defis-technique", 1, "button-wrap"]], template: function EntrainementComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Les entrainements");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "mat-accordion");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "mat-expansion-panel", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "mat-expansion-panel-header", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Entrainement");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "\nObjectif : Pr\u00E9pa pr\u00E9-saison ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "\nAfin de pr\u00E9parer au mieux la saison prochaine, nous proposons aux joueurs qui le souhaitent de se remettre en forme progressivement,");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "a", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Pr\u00E9paration physique");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, " de remettre son corps dans une dynamique sportive adapt\u00E9e afin que la reprise futsallistique ne soit pas entrav\u00E9e par le manque d\u2019activit\u00E9 sportive que nous avons connus ces derniers mois notamment \u00E0 cause du COVID 19.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "\nPour cela nous vous proposons quelques exercices de remises de forme au travers d\u2019un calendrier mais aussi quelques conseils d\u2019hygi\u00E8ne de vie pour ceux qui souhaitent perdre quelques kg de masse graisseuse. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "\nPour rappel, nous ne sommes qu\u2019un club b\u00E9n\u00E9vole, familiale, et n\u2019obligeons en aucun cas les licenci\u00E9s \u00E0 suivre ce qui suit. Cela se fait sur la base du volontariat. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, " Le plaisir d\u2019\u00EAtre ensemble et de passer de bons moments collectifs passera par les victoires ! ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "Forza le FCS !!!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "a", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Defis technique");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "\nCalendrier de remise en forme : ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "\nChaque s\u00E9ance doit \u00EAtre termin\u00E9e par une s\u00E9ance d\u2019\u00E9tirements ! Nous y tenons, cela est important. N\u2019oubliez pas : ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](25, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Un muscle bien \u00E9tir\u00E9 est un muscle qui r\u00E9agit mieux aux efforts et est donc plus performant");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "Un muscle bien \u00E9tir\u00E9 est un muscle qui r\u00E9cup\u00E8re mieux ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "Un muscle bien \u00E9tir\u00E9 est un muscle qui se blesse moins");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](32, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "\nExemple (non exhaustif) : ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](34, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](35, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "img", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](37, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](38, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "mat-accordion");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "mat-expansion-panel", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "mat-expansion-panel-header", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, "Semaine 1 ( 27/07/2020 - 02/08/2020 )");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "h1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "Semaine du 27 Juillet 2020");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "Mardi, vendredi, samedi et dimanche : repos");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](48, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, " Lundi, mercredi et jeudi : Footing 30 min puis circuit training.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](50, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](51, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, "Travail des Pectoraux, Triceps brachial:");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](54, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "ul");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](57, "S\u00E9quence de 20 pompes avec toutes les 5 pompes ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, " Maintien en position basse 5 secondes ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](59, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](60, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](62, "Etirements ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](63, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](64, " A r\u00E9p\u00E9ter 3 fois. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](65, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](66, "img", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](67, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](68, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70, " Travail des abdominaux (obliques et grand droit):");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "ul");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](73, "3 fois 1 min de gainage avec 30 secondes de pause entre chaque");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, "3 x 20 crunch");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](77, "3 fois 1 min de gainage en \u00AB tour du monde \u00BB avec 30 secondes de pause entre chaque");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](78, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](79, "\nA r\u00E9p\u00E9ter 2 fois.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](80, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](81, "img", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](82, "img", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](83, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](84, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](85, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](86, "Travail des quadriceps (pour l\u2019explosivit\u00E9 !)");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](87, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](88, "\nPosition de d\u00E9part : debout pied largeur des \u00E9paules\n");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](89, "ul");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](90, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](91, "10 fentes avant pied droit (on revient \u00E0 chaque fois \u00E0 la position de d\u00E9part)");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](93, "10 fentes avant pied gauche");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](94, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](95, "10 squats (jambes \u00E0 90\u00B0)");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](96, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](97, "10 fentes arri\u00E8re pied droit ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](98, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](99, "10 fentes arri\u00E8re pied gauche");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](100, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](101, "10 squats");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](102, "img", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](103, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](104, "\nEtirements et hydratation \u00E0 volont\u00E9 ! ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](105, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](106, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](107, "Bravo belle s\u00E9ance !");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "mat-accordion");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](109, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](110, "hr");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](111, "mat-expansion-panel", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](112, "mat-expansion-panel-header", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](113, "Semaine 2 ( 03/08/2020 - 09/08/2020 )");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](114, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](115, "h1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](116, "Semaine du 03 Ao\u00FBt 2020 (1 s\u00E9ance de plus et commencement du fractionn\u00E9)");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](118, "Mardi, jeudi et samedi : repos");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](119, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](120, " Lundi, mercredi, vendredi et dimanche : Footing 25 min suivi sans interruption de fractionn\u00E9 5 fois 30 sec \u00E0 80% et 30 sec tranquille (vous devez donc finir votre footing \u00E0 30 minutes) puis circuit training.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](121, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](122, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](123, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](124, "Travail des Pectoraux, Triceps brachial :");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](125, "ul");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](126, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](127, " S\u00E9quence de 20 pompes avec toutes les 5 pompes ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](128, " Maintien en position basse 5 secondes ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](129, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](130, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](131, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](132, "Etirements");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](133, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](134, " A r\u00E9p\u00E9ter 3 fois ! ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](135, "img", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](136, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](137, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](138, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](139, " Travail des abdominaux (obliques et grand droit):");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](140, "ul");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](141, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](142, "4 fois 1 min de gainage avec 30 secondes de pause entre chaque");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](143, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](144, "3 x 30 crunch");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](145, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](146, " A r\u00E9p\u00E9ter 2 fois ! ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](147, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](148, "img", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](149, "img", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](150, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](151, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](152, "Travail des quadriceps (pour l\u2019explosivit\u00E9 !)");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](153, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](154, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](155, " Position de d\u00E9part : debout pied largeur des \u00E9paules ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](156, "ul");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](157, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](158, "15 fentes avant pied droit (on revient \u00E0 chaque fois \u00E0 la position de d\u00E9part)");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](159, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](160, "15 fentes avant pied gauche");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](161, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](162, "Chaise contre mur pendant 1 minute (jambe \u00E0 90\u00B0 et sans appui des mains !)");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](163, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](164, "15 fentes arri\u00E8re pied droit ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](165, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](166, "15 fentes arri\u00E8re pied gauche");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](167, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](168, "Chaise contre mur pendant 1 minute");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](169, " A r\u00E9p\u00E9ter 2 fois ! ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](170, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](171, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](172, "img", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](173, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](174, " Etirements et hydratation \u00E0 volont\u00E9 ! ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](175, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](176, "Bravo belle s\u00E9ance !");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](177, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](178, "hr");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](179, "mat-accordion");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](180, "mat-expansion-panel", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](181, "mat-expansion-panel-header", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](182, "Semaine 3 ( 10/08/2020 - 16/08/2020 )");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](183, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](184, "h1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](185, "Semaine du 10 Ao\u00FBt 2020 (on intensifie le cardio !)");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](186, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](187, " Mardi, vendredi et dimanche : Repos");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](188, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](189, " Lundi, mercredi, jeudi et samedi : Footing 30 min suivi sans interruption de fractionn\u00E9 5 fois 45 sec \u00E0 100 % et 30 sec tranquille (vous devez donc finir votre footing \u00E0 37.30 minutes) puis circuit training.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](190, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](191, "Travail cardio : l\u2019id\u00E9e est d\u2019enchainer rapidement les exercices");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](192, "ul");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](193, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](194, "15 Burpees");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](195, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](196, "1 minute de chaise");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](197, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](198, "1 minute de gainage");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](199, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](200, "15 Burpees");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](201, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](202, "20 Squats");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](203, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](204, "30 Crunch");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](205, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](206, "2 minutes de repos puis \u00E0 r\u00E9p\u00E9ter 3 fois !!");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](207, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](208, "img", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](209, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](210, " Etirements et hydratation \u00E0 volont\u00E9 ! ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](211, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](212, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](213, "Bravo belle s\u00E9ance !");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, directives: [_angular_material_expansion__WEBPACK_IMPORTED_MODULE_1__["MatAccordion"], _angular_material_expansion__WEBPACK_IMPORTED_MODULE_1__["MatExpansionPanel"], _angular_material_expansion__WEBPACK_IMPORTED_MODULE_1__["MatExpansionPanelHeader"]], styles: ["p[_ngcontent-%COMP%] {\n    text-align: justify;  \n}\n\n.main-content[_ngcontent-%COMP%] {\n    width: 100%;\n    padding: 20px;\n    min-height: 100vh;\n    transition: all 0.3s;}\n\nh1[_ngcontent-%COMP%] {\n    overflow: hidden; \n    border-right: .15em solid black; \n    white-space: nowrap; \n    margin: 0 auto; \n    letter-spacing: .15em; \n    animation: \n      typing 3.5s steps(40, end),\n      blink-caret .75s step-end infinite;\n    text-transform: uppercase;\n  }\n\n@keyframes typing {\n    from { width: 0 }\n    to { width: 100% }\n  }\n\n\n\n@keyframes blink-caret {\n    from, to { border-color: transparent }\n    50% { border-color: black; }\n  }\n\n.text[_ngcontent-%COMP%]{\n}\n\niframe[_ngcontent-%COMP%]{\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n}\n\n.imgprepa[_ngcontent-%COMP%]{\n\n\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZW50cmFpbmVtZW50L2VudHJhaW5lbWVudC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksbUJBQW1CO0FBQ3ZCOztBQUVBO0lBQ0ksV0FBVztJQUNYLGFBQWE7SUFDYixpQkFBaUI7SUFDakIsb0JBQW9CLENBQUM7O0FBRXpCO0lBQ0ksZ0JBQWdCLEVBQUUsNERBQTREO0lBQzlFLCtCQUErQixFQUFFLHlCQUF5QjtJQUMxRCxtQkFBbUIsRUFBRSx1Q0FBdUM7SUFDNUQsY0FBYyxFQUFFLHNEQUFzRDtJQUN0RSxxQkFBcUIsRUFBRSxxQkFBcUI7SUFDNUM7O3dDQUVvQztJQUNwQyx5QkFBeUI7RUFDM0I7O0FBRUE7SUFDRSxPQUFPLFNBQVM7SUFDaEIsS0FBSyxZQUFZO0VBQ25COztBQUVBLGlDQUFpQzs7QUFDakM7SUFDRSxXQUFXLDBCQUEwQjtJQUNyQyxNQUFNLG1CQUFtQixFQUFFO0VBQzdCOztBQUVBO0FBQ0Y7O0FBRUE7SUFDSSxjQUFjO0lBQ2QsaUJBQWlCO0lBQ2pCLGtCQUFrQjtBQUN0Qjs7QUFFQTs7O0FBR0EiLCJmaWxlIjoic3JjL2FwcC9lbnRyYWluZW1lbnQvZW50cmFpbmVtZW50LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJwIHtcbiAgICB0ZXh0LWFsaWduOiBqdXN0aWZ5OyAgXG59XG5cbi5tYWluLWNvbnRlbnQge1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIHBhZGRpbmc6IDIwcHg7XG4gICAgbWluLWhlaWdodDogMTAwdmg7XG4gICAgdHJhbnNpdGlvbjogYWxsIDAuM3M7fVxuICBcbmgxIHtcbiAgICBvdmVyZmxvdzogaGlkZGVuOyAvKiBFbnN1cmVzIHRoZSBjb250ZW50IGlzIG5vdCByZXZlYWxlZCB1bnRpbCB0aGUgYW5pbWF0aW9uICovXG4gICAgYm9yZGVyLXJpZ2h0OiAuMTVlbSBzb2xpZCBibGFjazsgLyogVGhlIHR5cHdyaXRlciBjdXJzb3IgKi9cbiAgICB3aGl0ZS1zcGFjZTogbm93cmFwOyAvKiBLZWVwcyB0aGUgY29udGVudCBvbiBhIHNpbmdsZSBsaW5lICovXG4gICAgbWFyZ2luOiAwIGF1dG87IC8qIEdpdmVzIHRoYXQgc2Nyb2xsaW5nIGVmZmVjdCBhcyB0aGUgdHlwaW5nIGhhcHBlbnMgKi9cbiAgICBsZXR0ZXItc3BhY2luZzogLjE1ZW07IC8qIEFkanVzdCBhcyBuZWVkZWQgKi9cbiAgICBhbmltYXRpb246IFxuICAgICAgdHlwaW5nIDMuNXMgc3RlcHMoNDAsIGVuZCksXG4gICAgICBibGluay1jYXJldCAuNzVzIHN0ZXAtZW5kIGluZmluaXRlO1xuICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XG4gIH1cblxuICBAa2V5ZnJhbWVzIHR5cGluZyB7XG4gICAgZnJvbSB7IHdpZHRoOiAwIH1cbiAgICB0byB7IHdpZHRoOiAxMDAlIH1cbiAgfVxuICBcbiAgLyogVGhlIHR5cGV3cml0ZXIgY3Vyc29yIGVmZmVjdCAqL1xuICBAa2V5ZnJhbWVzIGJsaW5rLWNhcmV0IHtcbiAgICBmcm9tLCB0byB7IGJvcmRlci1jb2xvcjogdHJhbnNwYXJlbnQgfVxuICAgIDUwJSB7IGJvcmRlci1jb2xvcjogYmxhY2s7IH1cbiAgfVxuXG4gIC50ZXh0e1xufVxuICAgXG5pZnJhbWV7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gICAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xufVxuXG4uaW1ncHJlcGF7XG5cblxufSJdfQ== */"] });
+    } }, directives: [_angular_material_expansion__WEBPACK_IMPORTED_MODULE_1__["MatAccordion"], _angular_material_expansion__WEBPACK_IMPORTED_MODULE_1__["MatExpansionPanel"], _angular_material_expansion__WEBPACK_IMPORTED_MODULE_1__["MatExpansionPanelHeader"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"]], styles: ["p[_ngcontent-%COMP%] {\n    text-align: justify;  \n}\n\n.main-content[_ngcontent-%COMP%] {\n    width: 100%;\n    padding: 20px;\n    min-height: 100vh;\n    transition: all 0.3s;}\n\nh1[_ngcontent-%COMP%] {\n    overflow: hidden; \n    border-right: .15em solid black; \n    white-space: nowrap; \n    margin: 0 auto; \n    letter-spacing: .15em; \n    animation: \n      typing 3.5s steps(40, end),\n      blink-caret .75s step-end infinite;\n    text-transform: uppercase;\n  }\n\n@keyframes typing {\n    from { width: 0 }\n    to { width: 100% }\n  }\n\n\n\n@keyframes blink-caret {\n    from, to { border-color: transparent }\n    50% { border-color: black; }\n  }\n\niframe[_ngcontent-%COMP%]{\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZW50cmFpbmVtZW50L2VudHJhaW5lbWVudC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksbUJBQW1CO0FBQ3ZCOztBQUVBO0lBQ0ksV0FBVztJQUNYLGFBQWE7SUFDYixpQkFBaUI7SUFDakIsb0JBQW9CLENBQUM7O0FBRXpCO0lBQ0ksZ0JBQWdCLEVBQUUsNERBQTREO0lBQzlFLCtCQUErQixFQUFFLHlCQUF5QjtJQUMxRCxtQkFBbUIsRUFBRSx1Q0FBdUM7SUFDNUQsY0FBYyxFQUFFLHNEQUFzRDtJQUN0RSxxQkFBcUIsRUFBRSxxQkFBcUI7SUFDNUM7O3dDQUVvQztJQUNwQyx5QkFBeUI7RUFDM0I7O0FBRUE7SUFDRSxPQUFPLFNBQVM7SUFDaEIsS0FBSyxZQUFZO0VBQ25COztBQUVBLGlDQUFpQzs7QUFDakM7SUFDRSxXQUFXLDBCQUEwQjtJQUNyQyxNQUFNLG1CQUFtQixFQUFFO0VBQzdCOztBQUlGO0lBQ0ksY0FBYztJQUNkLGlCQUFpQjtJQUNqQixrQkFBa0I7QUFDdEIiLCJmaWxlIjoic3JjL2FwcC9lbnRyYWluZW1lbnQvZW50cmFpbmVtZW50LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJwIHtcbiAgICB0ZXh0LWFsaWduOiBqdXN0aWZ5OyAgXG59XG5cbi5tYWluLWNvbnRlbnQge1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIHBhZGRpbmc6IDIwcHg7XG4gICAgbWluLWhlaWdodDogMTAwdmg7XG4gICAgdHJhbnNpdGlvbjogYWxsIDAuM3M7fVxuICBcbmgxIHtcbiAgICBvdmVyZmxvdzogaGlkZGVuOyAvKiBFbnN1cmVzIHRoZSBjb250ZW50IGlzIG5vdCByZXZlYWxlZCB1bnRpbCB0aGUgYW5pbWF0aW9uICovXG4gICAgYm9yZGVyLXJpZ2h0OiAuMTVlbSBzb2xpZCBibGFjazsgLyogVGhlIHR5cHdyaXRlciBjdXJzb3IgKi9cbiAgICB3aGl0ZS1zcGFjZTogbm93cmFwOyAvKiBLZWVwcyB0aGUgY29udGVudCBvbiBhIHNpbmdsZSBsaW5lICovXG4gICAgbWFyZ2luOiAwIGF1dG87IC8qIEdpdmVzIHRoYXQgc2Nyb2xsaW5nIGVmZmVjdCBhcyB0aGUgdHlwaW5nIGhhcHBlbnMgKi9cbiAgICBsZXR0ZXItc3BhY2luZzogLjE1ZW07IC8qIEFkanVzdCBhcyBuZWVkZWQgKi9cbiAgICBhbmltYXRpb246IFxuICAgICAgdHlwaW5nIDMuNXMgc3RlcHMoNDAsIGVuZCksXG4gICAgICBibGluay1jYXJldCAuNzVzIHN0ZXAtZW5kIGluZmluaXRlO1xuICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XG4gIH1cblxuICBAa2V5ZnJhbWVzIHR5cGluZyB7XG4gICAgZnJvbSB7IHdpZHRoOiAwIH1cbiAgICB0byB7IHdpZHRoOiAxMDAlIH1cbiAgfVxuICBcbiAgLyogVGhlIHR5cGV3cml0ZXIgY3Vyc29yIGVmZmVjdCAqL1xuICBAa2V5ZnJhbWVzIGJsaW5rLWNhcmV0IHtcbiAgICBmcm9tLCB0byB7IGJvcmRlci1jb2xvcjogdHJhbnNwYXJlbnQgfVxuICAgIDUwJSB7IGJvcmRlci1jb2xvcjogYmxhY2s7IH1cbiAgfVxuXG5cbiAgIFxuaWZyYW1le1xuICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICAgIG1hcmdpbi1yaWdodDogYXV0bztcbn1cbiJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](EntrainementComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -1404,7 +1173,7 @@ class HomeComponent {
     }
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(); };
-HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 40, vars: 0, consts: [[1, "square", "bg", "img1"], [1, "content", "numbers"], ["src", "./assets/images/logo.png", 1, "imghome1"], [1, "square", "bg", "img6"], ["routerLink", "/intro", 1, "button"], [1, "bg"], ["src", "./assets/images/logo.png", 1, "imghome"], ["routerLink", "/sommaire", 1, "button"], [1, "square", "bg", "img4"], ["routerLink", "/entrainement", 1, "button"], [1, "square", "bg", "img2"], [1, "content"], ["routerLink", "/alimentation", 1, "button"], [1, "square", "bg", "img3"], ["routerLink", "/informations", 1, "button"], ["routerLink", "/revisions", 1, "button"], [1, "square", "bg", "img5"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 49, vars: 0, consts: [[1, "square", "bg", "img1"], [1, "content", "numbers"], ["src", "./assets/images/logo.png", 1, "imghome1"], [1, "square", "bg", "img6"], ["routerLink", "/intro", 1, "button"], [1, "bg"], ["src", "./assets/images/logo.png", 1, "imghome"], ["routerLink", "/sommaire", 1, "button"], [1, "square", "bg", "img8"], ["routerLink", "/lois", 1, "button"], [1, "square", "bg", "img3"], ["routerLink", "/informations", 1, "button"], [1, "square", "bg", "img2"], [1, "content"], ["routerLink", "/alimentation", 1, "button"], ["routerLink", "/revisions", 1, "button"], [1, "square", "bg", "img5"], [1, "square", "bg", "img4"], ["routerLink", "/entrainement", 1, "button"], [1, "square", "bg", "img7"], ["routerLink", "/tactique", 1, "button"], [1, "square", "bg", "img10"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 1);
@@ -1439,16 +1208,16 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "a", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "a", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "img", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "a", 14);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "div", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](28, "img", 6);
@@ -1465,17 +1234,34 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div", 17);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "img", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "a", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](38, "img", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](39, "img", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"]], styles: [".center[_ngcontent-%COMP%] {\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n    width: 25%;\n  }\n\n  div[_ngcontent-%COMP%] {\n    padding-bottom: 30%; \n    border-radius: 10px;\n    height:auto;\n\n}\n\n  .square[_ngcontent-%COMP%] {\n    float:left;\n    position: relative;\n    width: 30%;\n    padding-bottom: 30%; \n    margin:1.66%;\n    overflow:hidden;\n    height:auto;\n\n}\n\n  .content[_ngcontent-%COMP%] {\n    position:absolute;\n    height:80%; \n    width:90%; \n    padding: center;\n    height:auto;\n\n}\n\n  .content[_ngcontent-%COMP%]   .rs[_ngcontent-%COMP%]{\n    width:auto;\n    height:auto;\n    max-height:90%;\n    max-width:100%;\n}\n\n  \n\n  .bg[_ngcontent-%COMP%]{\n    background-position:center center;\n    background-repeat:no-repeat;\n    background-size:cover; \n    color:#fff;\n}\n\n  .imghome[_ngcontent-%COMP%]{\n    position: fixed;\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n    transition: 1s ease-out;\n    filter: grayscale(90%);\n    width:50%;\n    height:50%;\n    object-fit: cover;\n    overflow: hidden;\n\n    \n}\n\n  .imghome[_ngcontent-%COMP%]:hover{\n    filter: grayscale(0%);\n\n}\n\n  .imghome1[_ngcontent-%COMP%]{\n    background-repeat:no-repeat;\n    background-position: center;\n    transition: 1s ease-out;\n    filter: grayscale(90%);\n    position: fixed;\n    min-width: 100%;\n    min-height: 100%;\n    max-width: 100%;\n    max-height: 100%;\n}\n\n  .imghome1[_ngcontent-%COMP%]:hover{\n    filter: grayscale(0%);\n\n}\n\n  .img1[_ngcontent-%COMP%]{\n    background-image: url('sommaire.jpg');\n    transition: 1s ease-out;\n    filter: grayscale(90%);\n\n}\n\n  .img1[_ngcontent-%COMP%]:hover{\n    filter: grayscale(0%);\n\n}\n\n  .img2[_ngcontent-%COMP%]{\n    background-image: url('aliment-healthy.jpg');\n    transition: 1s ease-out;\n    filter: grayscale(90%);\n    \n}\n\n  .img2[_ngcontent-%COMP%]:hover{\n    filter: grayscale(0%);\n\n}\n\n  .img3[_ngcontent-%COMP%]{\n    background-image: url('informer.jpg');\n    transition: 1s ease-out;\n    filter: grayscale(90%);\n}\n\n  .img3[_ngcontent-%COMP%]:hover{\n    filter: grayscale(0%);\n\n}\n\n  .img4[_ngcontent-%COMP%]{\n    background-image: url('entrainement.jpg');\n    transition: 1s ease-out;\n    filter: grayscale(90%);\n}\n\n  .img4[_ngcontent-%COMP%]:hover{\n    filter: grayscale(0%);\n\n}\n\n  .img5[_ngcontent-%COMP%]{\n    background-image: url('revision.jpg');\n    transition: 1s ease-out;\n    filter: grayscale(90%);\n}\n\n  .img5[_ngcontent-%COMP%]:hover{\n    filter: grayscale(0%);\n\n}\n\n  .img6[_ngcontent-%COMP%]{\n    background-image: url('introduction.jpg');\n    transition: 1s ease-out;\n    filter: grayscale(90%);\n}\n\n  .img6[_ngcontent-%COMP%]:hover{\n    filter: grayscale(0%);\n\n}\n\n  \n\n  body[_ngcontent-%COMP%] {\n    font-size:20px;\n    font-family: 'Lato',verdana, sans-serif;\n    color: #fff;\n    background:#ECECEC;\n}\n\n  .numbers[_ngcontent-%COMP%]{\n    font-weight:900;\n    font-size:100px;\n}\n\n  .button[_ngcontent-%COMP%] {\n    position: fixed;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxjQUFjO0lBQ2QsaUJBQWlCO0lBQ2pCLGtCQUFrQjtJQUNsQixVQUFVO0VBQ1o7O0VBRUE7SUFDRSxtQkFBbUIsRUFBRSxzQ0FBc0M7SUFDM0QsbUJBQW1CO0lBQ25CLFdBQVc7O0FBRWY7O0VBRUE7SUFDSSxVQUFVO0lBQ1Ysa0JBQWtCO0lBQ2xCLFVBQVU7SUFDVixtQkFBbUIsRUFBRSxtQ0FBbUM7SUFDeEQsWUFBWTtJQUNaLGVBQWU7SUFDZixXQUFXOztBQUVmOztFQUVBO0lBQ0ksaUJBQWlCO0lBQ2pCLFVBQVUsRUFBRSwyQkFBMkI7SUFDdkMsU0FBUyxFQUFFLDBCQUEwQjtJQUNyQyxlQUFlO0lBQ2YsV0FBVzs7QUFFZjs7RUFFQTtJQUNJLFVBQVU7SUFDVixXQUFXO0lBQ1gsY0FBYztJQUNkLGNBQWM7QUFDbEI7O0VBQ0EseUNBQXlDOztFQUV6QztJQUNJLGlDQUFpQztJQUNqQywyQkFBMkI7SUFDM0IscUJBQXFCLEVBQUUsNEVBQTRFO0lBQ25HLFVBQVU7QUFDZDs7RUFDQTtJQUNJLGVBQWU7SUFDZixjQUFjO0lBQ2QsaUJBQWlCO0lBQ2pCLGtCQUFrQjtJQUNsQix1QkFBdUI7SUFDdkIsc0JBQXNCO0lBQ3RCLFNBQVM7SUFDVCxVQUFVO0lBQ1YsaUJBQWlCO0lBQ2pCLGdCQUFnQjs7O0FBR3BCOztFQUdBO0lBQ0kscUJBQXFCOztBQUV6Qjs7RUFDQTtJQUNJLDJCQUEyQjtJQUMzQiwyQkFBMkI7SUFDM0IsdUJBQXVCO0lBQ3ZCLHNCQUFzQjtJQUN0QixlQUFlO0lBQ2YsZUFBZTtJQUNmLGdCQUFnQjtJQUNoQixlQUFlO0lBQ2YsZ0JBQWdCO0FBQ3BCOztFQUNBO0lBQ0kscUJBQXFCOztBQUV6Qjs7RUFDQTtJQUNJLHFDQUF1RDtJQUN2RCx1QkFBdUI7SUFDdkIsc0JBQXNCOztBQUUxQjs7RUFDQTtJQUNJLHFCQUFxQjs7QUFFekI7O0VBQ0E7SUFDSSw0Q0FBOEQ7SUFDOUQsdUJBQXVCO0lBQ3ZCLHNCQUFzQjs7QUFFMUI7O0VBQ0E7SUFDSSxxQkFBcUI7O0FBRXpCOztFQUNBO0lBQ0kscUNBQXVEO0lBQ3ZELHVCQUF1QjtJQUN2QixzQkFBc0I7QUFDMUI7O0VBQ0E7SUFDSSxxQkFBcUI7O0FBRXpCOztFQUVBO0lBQ0kseUNBQTJEO0lBQzNELHVCQUF1QjtJQUN2QixzQkFBc0I7QUFDMUI7O0VBQ0E7SUFDSSxxQkFBcUI7O0FBRXpCOztFQUVBO0lBQ0kscUNBQXVEO0lBQ3ZELHVCQUF1QjtJQUN2QixzQkFBc0I7QUFDMUI7O0VBQ0E7SUFDSSxxQkFBcUI7O0FBRXpCOztFQUVBO0lBQ0kseUNBQTJEO0lBQzNELHVCQUF1QjtJQUN2QixzQkFBc0I7QUFDMUI7O0VBQ0E7SUFDSSxxQkFBcUI7O0FBRXpCOztFQUNBLGlDQUFpQzs7RUFHakM7SUFDSSxjQUFjO0lBQ2QsdUNBQXVDO0lBQ3ZDLFdBQVc7SUFDWCxrQkFBa0I7QUFDdEI7O0VBRUE7SUFDSSxlQUFlO0lBQ2YsZUFBZTtBQUNuQjs7RUFFQTtJQUNJLGVBQWU7QUFDbkIiLCJmaWxlIjoic3JjL2FwcC9ob21lL2hvbWUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jZW50ZXIge1xuICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICAgIG1hcmdpbi1yaWdodDogYXV0bztcbiAgICB3aWR0aDogMjUlO1xuICB9XG5cbiAgZGl2IHtcbiAgICBwYWRkaW5nLWJvdHRvbTogMzAlOyAvKiA9IHdpZHRoIGZvciBhIHNxdWFyZSBhc3BlY3QgcmF0aW8gKi9cbiAgICBib3JkZXItcmFkaXVzOiAxMHB4O1xuICAgIGhlaWdodDphdXRvO1xuXG59XG5cbi5zcXVhcmUge1xuICAgIGZsb2F0OmxlZnQ7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgIHdpZHRoOiAzMCU7XG4gICAgcGFkZGluZy1ib3R0b206IDMwJTsgLyogPSB3aWR0aCBmb3IgYSAxOjEgYXNwZWN0IHJhdGlvICovXG4gICAgbWFyZ2luOjEuNjYlO1xuICAgIG92ZXJmbG93OmhpZGRlbjtcbiAgICBoZWlnaHQ6YXV0bztcblxufVxuXG4uY29udGVudCB7XG4gICAgcG9zaXRpb246YWJzb2x1dGU7XG4gICAgaGVpZ2h0OjgwJTsgLyogPSAxMDAlIC0gMioxMCUgcGFkZGluZyAqL1xuICAgIHdpZHRoOjkwJTsgLyogPSAxMDAlIC0gMio1JSBwYWRkaW5nICovXG4gICAgcGFkZGluZzogY2VudGVyO1xuICAgIGhlaWdodDphdXRvO1xuXG59XG5cbi5jb250ZW50IC5yc3tcbiAgICB3aWR0aDphdXRvO1xuICAgIGhlaWdodDphdXRvO1xuICAgIG1heC1oZWlnaHQ6OTAlO1xuICAgIG1heC13aWR0aDoxMDAlO1xufVxuLyogIEZvciByZXNwb25zaXZlIGltYWdlcyBhcyBiYWNrZ3JvdW5kICovXG5cbi5iZ3tcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOmNlbnRlciBjZW50ZXI7XG4gICAgYmFja2dyb3VuZC1yZXBlYXQ6bm8tcmVwZWF0O1xuICAgIGJhY2tncm91bmQtc2l6ZTpjb3ZlcjsgLyogeW91IGNoYW5nZSB0aGlzIHRvIFwiY29udGFpblwiIGlmIHlvdSBkb24ndCB3YW50IHRoZSBpbWFnZXMgdG8gYmUgY3JvcHBlZCAqL1xuICAgIGNvbG9yOiNmZmY7XG59XG4uaW1naG9tZXtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gICAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xuICAgIHRyYW5zaXRpb246IDFzIGVhc2Utb3V0O1xuICAgIGZpbHRlcjogZ3JheXNjYWxlKDkwJSk7XG4gICAgd2lkdGg6NTAlO1xuICAgIGhlaWdodDo1MCU7XG4gICAgb2JqZWN0LWZpdDogY292ZXI7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgIFxufVxuXG5cbi5pbWdob21lOmhvdmVye1xuICAgIGZpbHRlcjogZ3JheXNjYWxlKDAlKTtcblxufVxuLmltZ2hvbWUxe1xuICAgIGJhY2tncm91bmQtcmVwZWF0Om5vLXJlcGVhdDtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XG4gICAgdHJhbnNpdGlvbjogMXMgZWFzZS1vdXQ7XG4gICAgZmlsdGVyOiBncmF5c2NhbGUoOTAlKTtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgbWluLXdpZHRoOiAxMDAlO1xuICAgIG1pbi1oZWlnaHQ6IDEwMCU7XG4gICAgbWF4LXdpZHRoOiAxMDAlO1xuICAgIG1heC1oZWlnaHQ6IDEwMCU7XG59XG4uaW1naG9tZTE6aG92ZXJ7XG4gICAgZmlsdGVyOiBncmF5c2NhbGUoMCUpO1xuXG59XG4uaW1nMXtcbiAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoJ3NyYy9hc3NldHMvaW1hZ2VzL3NvbW1haXJlLmpwZycpO1xuICAgIHRyYW5zaXRpb246IDFzIGVhc2Utb3V0O1xuICAgIGZpbHRlcjogZ3JheXNjYWxlKDkwJSk7XG5cbn1cbi5pbWcxOmhvdmVye1xuICAgIGZpbHRlcjogZ3JheXNjYWxlKDAlKTtcblxufVxuLmltZzJ7XG4gICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKCdzcmMvYXNzZXRzL2ltYWdlcy9hbGltZW50LWhlYWx0aHkuanBnJyk7XG4gICAgdHJhbnNpdGlvbjogMXMgZWFzZS1vdXQ7XG4gICAgZmlsdGVyOiBncmF5c2NhbGUoOTAlKTtcbiAgICBcbn1cbi5pbWcyOmhvdmVye1xuICAgIGZpbHRlcjogZ3JheXNjYWxlKDAlKTtcblxufVxuLmltZzN7XG4gICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKCdzcmMvYXNzZXRzL2ltYWdlcy9pbmZvcm1lci5qcGcnKTtcbiAgICB0cmFuc2l0aW9uOiAxcyBlYXNlLW91dDtcbiAgICBmaWx0ZXI6IGdyYXlzY2FsZSg5MCUpO1xufVxuLmltZzM6aG92ZXJ7XG4gICAgZmlsdGVyOiBncmF5c2NhbGUoMCUpO1xuXG59XG5cbi5pbWc0e1xuICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgnc3JjL2Fzc2V0cy9pbWFnZXMvZW50cmFpbmVtZW50LmpwZycpO1xuICAgIHRyYW5zaXRpb246IDFzIGVhc2Utb3V0O1xuICAgIGZpbHRlcjogZ3JheXNjYWxlKDkwJSk7XG59XG4uaW1nNDpob3ZlcntcbiAgICBmaWx0ZXI6IGdyYXlzY2FsZSgwJSk7XG5cbn1cblxuLmltZzV7XG4gICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKCdzcmMvYXNzZXRzL2ltYWdlcy9yZXZpc2lvbi5qcGcnKTtcbiAgICB0cmFuc2l0aW9uOiAxcyBlYXNlLW91dDtcbiAgICBmaWx0ZXI6IGdyYXlzY2FsZSg5MCUpO1xufVxuLmltZzU6aG92ZXJ7XG4gICAgZmlsdGVyOiBncmF5c2NhbGUoMCUpO1xuXG59XG5cbi5pbWc2e1xuICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgnc3JjL2Fzc2V0cy9pbWFnZXMvaW50cm9kdWN0aW9uLmpwZycpO1xuICAgIHRyYW5zaXRpb246IDFzIGVhc2Utb3V0O1xuICAgIGZpbHRlcjogZ3JheXNjYWxlKDkwJSk7XG59XG4uaW1nNjpob3ZlcntcbiAgICBmaWx0ZXI6IGdyYXlzY2FsZSgwJSk7XG5cbn1cbi8qICBmb2xsb3dpbmcganVzdCBmb3IgdGhlIGRlbW8gKi9cblxuXG5ib2R5IHtcbiAgICBmb250LXNpemU6MjBweDtcbiAgICBmb250LWZhbWlseTogJ0xhdG8nLHZlcmRhbmEsIHNhbnMtc2VyaWY7XG4gICAgY29sb3I6ICNmZmY7XG4gICAgYmFja2dyb3VuZDojRUNFQ0VDO1xufVxuXG4ubnVtYmVyc3tcbiAgICBmb250LXdlaWdodDo5MDA7XG4gICAgZm9udC1zaXplOjEwMHB4O1xufVxuXG4uYnV0dG9uIHtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG59Il19 */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "a", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "img", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "div", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "a", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](48, "img", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"]], styles: [".center[_ngcontent-%COMP%] {\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n    width: 25%;\n  }\n\n  div[_ngcontent-%COMP%] {\n    padding-bottom: 30%; \n    border-radius: 10px;\n    height:auto;\n\n}\n\n  .square[_ngcontent-%COMP%] {\n    float:left;\n    position: relative;\n    width: 30%;\n    padding-bottom: 30%; \n    margin:1.66%;\n    overflow:hidden;\n    height:auto;\n\n}\n\n  .content[_ngcontent-%COMP%] {\n    position:absolute;\n    height:80%; \n    width:90%; \n    padding: center;\n    height:auto;\n\n}\n\n  .content[_ngcontent-%COMP%]   .rs[_ngcontent-%COMP%]{\n    width:auto;\n    height:auto;\n    max-height:90%;\n    max-width:100%;\n}\n\n  \n\n  .bg[_ngcontent-%COMP%]{\n    background-position:center center;\n    background-repeat:no-repeat;\n    background-size:cover; \n    color:#fff;\n}\n\n  .imghome[_ngcontent-%COMP%]{\n    position: fixed;\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n    transition: 1s ease-out;\n    filter: grayscale(90%);\n    width:50%;\n    height:50%;\n    object-fit: cover;\n    overflow: hidden;\n\n    \n}\n\n  .imghome[_ngcontent-%COMP%]:hover{\n    filter: grayscale(0%);\n\n}\n\n  .imghome1[_ngcontent-%COMP%]{\n    background-repeat:no-repeat;\n    background-position: center;\n    transition: 1s ease-out;\n    filter: grayscale(90%);\n    position: fixed;\n    min-width: 100%;\n    min-height: 100%;\n    max-width: 100%;\n    max-height: 100%;\n}\n\n  .imghome1[_ngcontent-%COMP%]:hover{\n    filter: grayscale(0%);\n\n}\n\n  .img1[_ngcontent-%COMP%]{\n    background-image: url('sommaire.jpg');\n    transition: 1s ease-out;\n    filter: grayscale(90%);\n\n}\n\n  .img1[_ngcontent-%COMP%]:hover{\n    filter: grayscale(0%);\n\n}\n\n  .img2[_ngcontent-%COMP%]{\n    background-image: url('aliment-healthy.jpg');\n    transition: 1s ease-out;\n    filter: grayscale(90%);\n    \n}\n\n  .img2[_ngcontent-%COMP%]:hover{\n    filter: grayscale(0%);\n\n}\n\n  .img3[_ngcontent-%COMP%]{\n    background-image: url('informer.jpg');\n    transition: 1s ease-out;\n    filter: grayscale(90%);\n}\n\n  .img3[_ngcontent-%COMP%]:hover{\n    filter: grayscale(0%);\n\n}\n\n  .img4[_ngcontent-%COMP%]{\n    background-image: url('entrainement.jpg');\n    transition: 1s ease-out;\n    filter: grayscale(90%);\n}\n\n  .img4[_ngcontent-%COMP%]:hover{\n    filter: grayscale(0%);\n\n}\n\n  .img5[_ngcontent-%COMP%]{\n    background-image: url('revision.jpg');\n    transition: 1s ease-out;\n    filter: grayscale(90%);\n}\n\n  .img5[_ngcontent-%COMP%]:hover{\n    filter: grayscale(0%);\n\n}\n\n  .img6[_ngcontent-%COMP%]{\n    background-image: url('introduction.jpg');\n    transition: 1s ease-out;\n    filter: grayscale(90%);\n}\n\n  .img6[_ngcontent-%COMP%]:hover{\n    filter: grayscale(0%);\n\n}\n\n  .img7[_ngcontent-%COMP%]{\n    background-image: url('tactique.jpg');\n    transition: 1s ease-out;\n    filter: grayscale(90%);\n}\n\n  .img7[_ngcontent-%COMP%]:hover{\n    filter: grayscale(0%);\n\n}\n\n  .img8[_ngcontent-%COMP%]{\n    background-image: url('regles.png');\n    transition: 1s ease-out;\n    filter: grayscale(90%);\n}\n\n  .img8[_ngcontent-%COMP%]:hover{\n    filter: grayscale(0%);\n\n}\n\n  .img10[_ngcontent-%COMP%]{\n    background-image: url('revision.jpg');\n    transition: 1s ease-out;\n    filter: grayscale(90%);\n}\n\n  .img10[_ngcontent-%COMP%]:hover{\n    filter: grayscale(0%);\n\n}\n\n  \n\n  body[_ngcontent-%COMP%] {\n    font-size:20px;\n    font-family: 'Lato',verdana, sans-serif;\n    color: #fff;\n    background:#ECECEC;\n}\n\n  .numbers[_ngcontent-%COMP%]{\n    font-weight:900;\n    font-size:100px;\n}\n\n  .button[_ngcontent-%COMP%] {\n    position: fixed;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxjQUFjO0lBQ2QsaUJBQWlCO0lBQ2pCLGtCQUFrQjtJQUNsQixVQUFVO0VBQ1o7O0VBRUE7SUFDRSxtQkFBbUIsRUFBRSxzQ0FBc0M7SUFDM0QsbUJBQW1CO0lBQ25CLFdBQVc7O0FBRWY7O0VBRUE7SUFDSSxVQUFVO0lBQ1Ysa0JBQWtCO0lBQ2xCLFVBQVU7SUFDVixtQkFBbUIsRUFBRSxtQ0FBbUM7SUFDeEQsWUFBWTtJQUNaLGVBQWU7SUFDZixXQUFXOztBQUVmOztFQUVBO0lBQ0ksaUJBQWlCO0lBQ2pCLFVBQVUsRUFBRSwyQkFBMkI7SUFDdkMsU0FBUyxFQUFFLDBCQUEwQjtJQUNyQyxlQUFlO0lBQ2YsV0FBVzs7QUFFZjs7RUFFQTtJQUNJLFVBQVU7SUFDVixXQUFXO0lBQ1gsY0FBYztJQUNkLGNBQWM7QUFDbEI7O0VBQ0EseUNBQXlDOztFQUV6QztJQUNJLGlDQUFpQztJQUNqQywyQkFBMkI7SUFDM0IscUJBQXFCLEVBQUUsNEVBQTRFO0lBQ25HLFVBQVU7QUFDZDs7RUFDQTtJQUNJLGVBQWU7SUFDZixjQUFjO0lBQ2QsaUJBQWlCO0lBQ2pCLGtCQUFrQjtJQUNsQix1QkFBdUI7SUFDdkIsc0JBQXNCO0lBQ3RCLFNBQVM7SUFDVCxVQUFVO0lBQ1YsaUJBQWlCO0lBQ2pCLGdCQUFnQjs7O0FBR3BCOztFQUdBO0lBQ0kscUJBQXFCOztBQUV6Qjs7RUFDQTtJQUNJLDJCQUEyQjtJQUMzQiwyQkFBMkI7SUFDM0IsdUJBQXVCO0lBQ3ZCLHNCQUFzQjtJQUN0QixlQUFlO0lBQ2YsZUFBZTtJQUNmLGdCQUFnQjtJQUNoQixlQUFlO0lBQ2YsZ0JBQWdCO0FBQ3BCOztFQUNBO0lBQ0kscUJBQXFCOztBQUV6Qjs7RUFDQTtJQUNJLHFDQUF1RDtJQUN2RCx1QkFBdUI7SUFDdkIsc0JBQXNCOztBQUUxQjs7RUFDQTtJQUNJLHFCQUFxQjs7QUFFekI7O0VBQ0E7SUFDSSw0Q0FBOEQ7SUFDOUQsdUJBQXVCO0lBQ3ZCLHNCQUFzQjs7QUFFMUI7O0VBQ0E7SUFDSSxxQkFBcUI7O0FBRXpCOztFQUNBO0lBQ0kscUNBQXVEO0lBQ3ZELHVCQUF1QjtJQUN2QixzQkFBc0I7QUFDMUI7O0VBQ0E7SUFDSSxxQkFBcUI7O0FBRXpCOztFQUVBO0lBQ0kseUNBQTJEO0lBQzNELHVCQUF1QjtJQUN2QixzQkFBc0I7QUFDMUI7O0VBQ0E7SUFDSSxxQkFBcUI7O0FBRXpCOztFQUVBO0lBQ0kscUNBQXVEO0lBQ3ZELHVCQUF1QjtJQUN2QixzQkFBc0I7QUFDMUI7O0VBQ0E7SUFDSSxxQkFBcUI7O0FBRXpCOztFQUVBO0lBQ0kseUNBQTJEO0lBQzNELHVCQUF1QjtJQUN2QixzQkFBc0I7QUFDMUI7O0VBQ0E7SUFDSSxxQkFBcUI7O0FBRXpCOztFQUVBO0lBQ0kscUNBQXVEO0lBQ3ZELHVCQUF1QjtJQUN2QixzQkFBc0I7QUFDMUI7O0VBQ0E7SUFDSSxxQkFBcUI7O0FBRXpCOztFQUVBO0lBQ0ksbUNBQXFEO0lBQ3JELHVCQUF1QjtJQUN2QixzQkFBc0I7QUFDMUI7O0VBQ0E7SUFDSSxxQkFBcUI7O0FBRXpCOztFQUVBO0lBQ0kscUNBQXVEO0lBQ3ZELHVCQUF1QjtJQUN2QixzQkFBc0I7QUFDMUI7O0VBQ0E7SUFDSSxxQkFBcUI7O0FBRXpCOztFQUNBLGlDQUFpQzs7RUFHakM7SUFDSSxjQUFjO0lBQ2QsdUNBQXVDO0lBQ3ZDLFdBQVc7SUFDWCxrQkFBa0I7QUFDdEI7O0VBRUE7SUFDSSxlQUFlO0lBQ2YsZUFBZTtBQUNuQjs7RUFFQTtJQUNJLGVBQWU7QUFDbkIiLCJmaWxlIjoic3JjL2FwcC9ob21lL2hvbWUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jZW50ZXIge1xuICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICAgIG1hcmdpbi1yaWdodDogYXV0bztcbiAgICB3aWR0aDogMjUlO1xuICB9XG5cbiAgZGl2IHtcbiAgICBwYWRkaW5nLWJvdHRvbTogMzAlOyAvKiA9IHdpZHRoIGZvciBhIHNxdWFyZSBhc3BlY3QgcmF0aW8gKi9cbiAgICBib3JkZXItcmFkaXVzOiAxMHB4O1xuICAgIGhlaWdodDphdXRvO1xuXG59XG5cbi5zcXVhcmUge1xuICAgIGZsb2F0OmxlZnQ7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgIHdpZHRoOiAzMCU7XG4gICAgcGFkZGluZy1ib3R0b206IDMwJTsgLyogPSB3aWR0aCBmb3IgYSAxOjEgYXNwZWN0IHJhdGlvICovXG4gICAgbWFyZ2luOjEuNjYlO1xuICAgIG92ZXJmbG93OmhpZGRlbjtcbiAgICBoZWlnaHQ6YXV0bztcblxufVxuXG4uY29udGVudCB7XG4gICAgcG9zaXRpb246YWJzb2x1dGU7XG4gICAgaGVpZ2h0OjgwJTsgLyogPSAxMDAlIC0gMioxMCUgcGFkZGluZyAqL1xuICAgIHdpZHRoOjkwJTsgLyogPSAxMDAlIC0gMio1JSBwYWRkaW5nICovXG4gICAgcGFkZGluZzogY2VudGVyO1xuICAgIGhlaWdodDphdXRvO1xuXG59XG5cbi5jb250ZW50IC5yc3tcbiAgICB3aWR0aDphdXRvO1xuICAgIGhlaWdodDphdXRvO1xuICAgIG1heC1oZWlnaHQ6OTAlO1xuICAgIG1heC13aWR0aDoxMDAlO1xufVxuLyogIEZvciByZXNwb25zaXZlIGltYWdlcyBhcyBiYWNrZ3JvdW5kICovXG5cbi5iZ3tcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOmNlbnRlciBjZW50ZXI7XG4gICAgYmFja2dyb3VuZC1yZXBlYXQ6bm8tcmVwZWF0O1xuICAgIGJhY2tncm91bmQtc2l6ZTpjb3ZlcjsgLyogeW91IGNoYW5nZSB0aGlzIHRvIFwiY29udGFpblwiIGlmIHlvdSBkb24ndCB3YW50IHRoZSBpbWFnZXMgdG8gYmUgY3JvcHBlZCAqL1xuICAgIGNvbG9yOiNmZmY7XG59XG4uaW1naG9tZXtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gICAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xuICAgIHRyYW5zaXRpb246IDFzIGVhc2Utb3V0O1xuICAgIGZpbHRlcjogZ3JheXNjYWxlKDkwJSk7XG4gICAgd2lkdGg6NTAlO1xuICAgIGhlaWdodDo1MCU7XG4gICAgb2JqZWN0LWZpdDogY292ZXI7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgIFxufVxuXG5cbi5pbWdob21lOmhvdmVye1xuICAgIGZpbHRlcjogZ3JheXNjYWxlKDAlKTtcblxufVxuLmltZ2hvbWUxe1xuICAgIGJhY2tncm91bmQtcmVwZWF0Om5vLXJlcGVhdDtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XG4gICAgdHJhbnNpdGlvbjogMXMgZWFzZS1vdXQ7XG4gICAgZmlsdGVyOiBncmF5c2NhbGUoOTAlKTtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgbWluLXdpZHRoOiAxMDAlO1xuICAgIG1pbi1oZWlnaHQ6IDEwMCU7XG4gICAgbWF4LXdpZHRoOiAxMDAlO1xuICAgIG1heC1oZWlnaHQ6IDEwMCU7XG59XG4uaW1naG9tZTE6aG92ZXJ7XG4gICAgZmlsdGVyOiBncmF5c2NhbGUoMCUpO1xuXG59XG4uaW1nMXtcbiAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoJ3NyYy9hc3NldHMvaW1hZ2VzL3NvbW1haXJlLmpwZycpO1xuICAgIHRyYW5zaXRpb246IDFzIGVhc2Utb3V0O1xuICAgIGZpbHRlcjogZ3JheXNjYWxlKDkwJSk7XG5cbn1cbi5pbWcxOmhvdmVye1xuICAgIGZpbHRlcjogZ3JheXNjYWxlKDAlKTtcblxufVxuLmltZzJ7XG4gICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKCdzcmMvYXNzZXRzL2ltYWdlcy9hbGltZW50LWhlYWx0aHkuanBnJyk7XG4gICAgdHJhbnNpdGlvbjogMXMgZWFzZS1vdXQ7XG4gICAgZmlsdGVyOiBncmF5c2NhbGUoOTAlKTtcbiAgICBcbn1cbi5pbWcyOmhvdmVye1xuICAgIGZpbHRlcjogZ3JheXNjYWxlKDAlKTtcblxufVxuLmltZzN7XG4gICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKCdzcmMvYXNzZXRzL2ltYWdlcy9pbmZvcm1lci5qcGcnKTtcbiAgICB0cmFuc2l0aW9uOiAxcyBlYXNlLW91dDtcbiAgICBmaWx0ZXI6IGdyYXlzY2FsZSg5MCUpO1xufVxuLmltZzM6aG92ZXJ7XG4gICAgZmlsdGVyOiBncmF5c2NhbGUoMCUpO1xuXG59XG5cbi5pbWc0e1xuICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgnc3JjL2Fzc2V0cy9pbWFnZXMvZW50cmFpbmVtZW50LmpwZycpO1xuICAgIHRyYW5zaXRpb246IDFzIGVhc2Utb3V0O1xuICAgIGZpbHRlcjogZ3JheXNjYWxlKDkwJSk7XG59XG4uaW1nNDpob3ZlcntcbiAgICBmaWx0ZXI6IGdyYXlzY2FsZSgwJSk7XG5cbn1cblxuLmltZzV7XG4gICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKCdzcmMvYXNzZXRzL2ltYWdlcy9yZXZpc2lvbi5qcGcnKTtcbiAgICB0cmFuc2l0aW9uOiAxcyBlYXNlLW91dDtcbiAgICBmaWx0ZXI6IGdyYXlzY2FsZSg5MCUpO1xufVxuLmltZzU6aG92ZXJ7XG4gICAgZmlsdGVyOiBncmF5c2NhbGUoMCUpO1xuXG59XG5cbi5pbWc2e1xuICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgnc3JjL2Fzc2V0cy9pbWFnZXMvaW50cm9kdWN0aW9uLmpwZycpO1xuICAgIHRyYW5zaXRpb246IDFzIGVhc2Utb3V0O1xuICAgIGZpbHRlcjogZ3JheXNjYWxlKDkwJSk7XG59XG4uaW1nNjpob3ZlcntcbiAgICBmaWx0ZXI6IGdyYXlzY2FsZSgwJSk7XG5cbn1cblxuLmltZzd7XG4gICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKCdzcmMvYXNzZXRzL2ltYWdlcy90YWN0aXF1ZS5qcGcnKTtcbiAgICB0cmFuc2l0aW9uOiAxcyBlYXNlLW91dDtcbiAgICBmaWx0ZXI6IGdyYXlzY2FsZSg5MCUpO1xufVxuLmltZzc6aG92ZXJ7XG4gICAgZmlsdGVyOiBncmF5c2NhbGUoMCUpO1xuXG59XG5cbi5pbWc4e1xuICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgnc3JjL2Fzc2V0cy9pbWFnZXMvcmVnbGVzLnBuZycpO1xuICAgIHRyYW5zaXRpb246IDFzIGVhc2Utb3V0O1xuICAgIGZpbHRlcjogZ3JheXNjYWxlKDkwJSk7XG59XG4uaW1nODpob3ZlcntcbiAgICBmaWx0ZXI6IGdyYXlzY2FsZSgwJSk7XG5cbn1cblxuLmltZzEwe1xuICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgnc3JjL2Fzc2V0cy9pbWFnZXMvcmV2aXNpb24uanBnJyk7XG4gICAgdHJhbnNpdGlvbjogMXMgZWFzZS1vdXQ7XG4gICAgZmlsdGVyOiBncmF5c2NhbGUoOTAlKTtcbn1cbi5pbWcxMDpob3ZlcntcbiAgICBmaWx0ZXI6IGdyYXlzY2FsZSgwJSk7XG5cbn1cbi8qICBmb2xsb3dpbmcganVzdCBmb3IgdGhlIGRlbW8gKi9cblxuXG5ib2R5IHtcbiAgICBmb250LXNpemU6MjBweDtcbiAgICBmb250LWZhbWlseTogJ0xhdG8nLHZlcmRhbmEsIHNhbnMtc2VyaWY7XG4gICAgY29sb3I6ICNmZmY7XG4gICAgYmFja2dyb3VuZDojRUNFQ0VDO1xufVxuXG4ubnVtYmVyc3tcbiAgICBmb250LXdlaWdodDo5MDA7XG4gICAgZm9udC1zaXplOjEwMHB4O1xufVxuXG4uYnV0dG9uIHtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG59Il19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HomeComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -1499,6 +1285,10 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "InformationsComponent", function() { return InformationsComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_material_expansion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material/expansion */ "./node_modules/@angular/material/fesm2015/expansion.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+
+
 
 
 class InformationsComponent {
@@ -1507,11 +1297,30 @@ class InformationsComponent {
     }
 }
 InformationsComponent.ɵfac = function InformationsComponent_Factory(t) { return new (t || InformationsComponent)(); };
-InformationsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: InformationsComponent, selectors: [["app-informations"]], decls: 2, vars: 0, template: function InformationsComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "informations works!");
+InformationsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: InformationsComponent, selectors: [["app-informations"]], decls: 15, vars: 0, consts: [[1, "main-content"], [1, "mat-elevation-z0"], [1, "panel"], ["routerLink", "/presaison", 1, "button-wrapInfo"], ["routerLink", "/calendrier", 1, "button-wrapInfo"]], template: function InformationsComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Informations");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2luZm9ybWF0aW9ucy9pbmZvcm1hdGlvbnMuY29tcG9uZW50LmNzcyJ9 */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "mat-accordion");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "mat-expansion-panel", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "mat-expansion-panel-header", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Informations");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "a", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Calendrier pr\u00E9-saison");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "a", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Calendrier saison 2020-2021");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, directives: [_angular_material_expansion__WEBPACK_IMPORTED_MODULE_1__["MatAccordion"], _angular_material_expansion__WEBPACK_IMPORTED_MODULE_1__["MatExpansionPanel"], _angular_material_expansion__WEBPACK_IMPORTED_MODULE_1__["MatExpansionPanelHeader"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"]], styles: ["p[_ngcontent-%COMP%] {\n    text-align: justify;  \n}\n\n.main-content[_ngcontent-%COMP%] {\n    width: 100%;\n    padding: 20px;\n    min-height: 100vh;\n    transition: all 0.3s;}\n\nh1[_ngcontent-%COMP%] {\n    overflow: hidden; \n    border-right: .15em solid black; \n    white-space: nowrap; \n    margin: 0 auto; \n    letter-spacing: .15em; \n    animation: \n      typing 3.5s steps(40, end),\n      blink-caret .75s step-end infinite;\n    text-transform: uppercase;\n  }\n\n@keyframes typing {\n    from { width: 0 }\n    to { width: 100% }\n  }\n\n\n\n@keyframes blink-caret {\n    from, to { border-color: transparent }\n    50% { border-color: black; }\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaW5mb3JtYXRpb25zL2luZm9ybWF0aW9ucy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksbUJBQW1CO0FBQ3ZCOztBQUVBO0lBQ0ksV0FBVztJQUNYLGFBQWE7SUFDYixpQkFBaUI7SUFDakIsb0JBQW9CLENBQUM7O0FBRXpCO0lBQ0ksZ0JBQWdCLEVBQUUsNERBQTREO0lBQzlFLCtCQUErQixFQUFFLHlCQUF5QjtJQUMxRCxtQkFBbUIsRUFBRSx1Q0FBdUM7SUFDNUQsY0FBYyxFQUFFLHNEQUFzRDtJQUN0RSxxQkFBcUIsRUFBRSxxQkFBcUI7SUFDNUM7O3dDQUVvQztJQUNwQyx5QkFBeUI7RUFDM0I7O0FBRUE7SUFDRSxPQUFPLFNBQVM7SUFDaEIsS0FBSyxZQUFZO0VBQ25COztBQUVBLGlDQUFpQzs7QUFDakM7SUFDRSxXQUFXLDBCQUEwQjtJQUNyQyxNQUFNLG1CQUFtQixFQUFFO0VBQzdCIiwiZmlsZSI6InNyYy9hcHAvaW5mb3JtYXRpb25zL2luZm9ybWF0aW9ucy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsicCB7XG4gICAgdGV4dC1hbGlnbjoganVzdGlmeTsgIFxufVxuXG4ubWFpbi1jb250ZW50IHtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBwYWRkaW5nOiAyMHB4O1xuICAgIG1pbi1oZWlnaHQ6IDEwMHZoO1xuICAgIHRyYW5zaXRpb246IGFsbCAwLjNzO31cbiAgXG5oMSB7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjsgLyogRW5zdXJlcyB0aGUgY29udGVudCBpcyBub3QgcmV2ZWFsZWQgdW50aWwgdGhlIGFuaW1hdGlvbiAqL1xuICAgIGJvcmRlci1yaWdodDogLjE1ZW0gc29saWQgYmxhY2s7IC8qIFRoZSB0eXB3cml0ZXIgY3Vyc29yICovXG4gICAgd2hpdGUtc3BhY2U6IG5vd3JhcDsgLyogS2VlcHMgdGhlIGNvbnRlbnQgb24gYSBzaW5nbGUgbGluZSAqL1xuICAgIG1hcmdpbjogMCBhdXRvOyAvKiBHaXZlcyB0aGF0IHNjcm9sbGluZyBlZmZlY3QgYXMgdGhlIHR5cGluZyBoYXBwZW5zICovXG4gICAgbGV0dGVyLXNwYWNpbmc6IC4xNWVtOyAvKiBBZGp1c3QgYXMgbmVlZGVkICovXG4gICAgYW5pbWF0aW9uOiBcbiAgICAgIHR5cGluZyAzLjVzIHN0ZXBzKDQwLCBlbmQpLFxuICAgICAgYmxpbmstY2FyZXQgLjc1cyBzdGVwLWVuZCBpbmZpbml0ZTtcbiAgICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xuICB9XG5cbiAgQGtleWZyYW1lcyB0eXBpbmcge1xuICAgIGZyb20geyB3aWR0aDogMCB9XG4gICAgdG8geyB3aWR0aDogMTAwJSB9XG4gIH1cbiAgXG4gIC8qIFRoZSB0eXBld3JpdGVyIGN1cnNvciBlZmZlY3QgKi9cbiAgQGtleWZyYW1lcyBibGluay1jYXJldCB7XG4gICAgZnJvbSwgdG8geyBib3JkZXItY29sb3I6IHRyYW5zcGFyZW50IH1cbiAgICA1MCUgeyBib3JkZXItY29sb3I6IGJsYWNrOyB9XG4gIH1cblxuIl19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](InformationsComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -1573,6 +1382,426 @@ IntroComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
                 selector: 'app-intro',
                 templateUrl: './intro.component.html',
                 styleUrls: ['./intro.component.css']
+            }]
+    }], function () { return []; }, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/lois/lois.component.ts":
+/*!****************************************!*\
+  !*** ./src/app/lois/lois.component.ts ***!
+  \****************************************/
+/*! exports provided: LoisComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoisComponent", function() { return LoisComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+class LoisComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+LoisComponent.ɵfac = function LoisComponent_Factory(t) { return new (t || LoisComponent)(); };
+LoisComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: LoisComponent, selectors: [["app-lois"]], decls: 56, vars: 0, consts: [[1, "main-content"]], template: function LoisComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Les lois du jeu");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "TERRAIN :");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Le futsal se joue sur un terrain disposant d\u2019un marquage, et le ballon peut sortir en touche.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "LA R\u00C8GLE DES QUATRE SECONDES :");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "\nPour les rentr\u00E9es de touche, les coups francs, les d\u00E9gagements et les coups de pied de coin, l\u2019ex\u00E9cutant a quatre secondes pour relancer le jeu, que les arbitres d\u00E9comptent avec leurs doigts, le bras tendu en l\u2019air. Si le jeu ne reprend pas dans les quatre secondes, un coup franc indirect est accord\u00E9 \u00E0 l\u2019\u00E9quipe adverse. Les gardiens ne doivent pas rester en possession du ballon plus de quatre secondes dans leur propre moiti\u00E9 de terrain.\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "R\u00C8GLE DES CINQ M\u00C8TRES :");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "\nLes joueurs adverses doivent se tenir \u00E0 au moins cinq m\u00E8tres du joueur en possession du ballon lors des coups francs, des coups de pied de coin, des d\u00E9gagements, des rentr\u00E9es de touche et des coups de pied de r\u00E9paration.\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "GARDIENS :");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "\nLes gardiens peuvent quitter leur surface et des joueurs peuvent se rendre dans la surface de r\u00E9paration. Les d\u00E9gagements ont lieu depuis la surface de r\u00E9paration et le gardien ne peut pas toucher \u00E0 nouveau le ballon avant qu\u2019il ait franchi la ligne m\u00E9diane ou qu\u2019un adversaire l\u2019ait touch\u00E9.\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "FAUTES CUMUL\u00C9ES :");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "\nChaque \u00E9quipe peut conc\u00E9der cinq coups francs lors de chaque mi-temps. A la sixi\u00E8me faute cumul\u00E9e, un coup franc direct est accord\u00E9 \u00E0 l\u2019\u00E9quipe adverse et l\u2019\u00E9quipe d\u00E9fendante n\u2019est pas autoris\u00E9e \u00E0 positionner des joueurs (autres que le gardien) entre le ballon et le but. Le tir peut \u00EAtre effectu\u00E9 \u00E0 partir du point de r\u00E9paration des 10 m ou, si la faute a \u00E9t\u00E9 commise plus proche du but, \u00E0 partir de l\u2019endroit o\u00F9 la faute a \u00E9t\u00E9 commise.\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "TEMPS MORT :");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "\nChaque \u00E9quipe a droit \u00E0 un temps mort de 60 secondes lors de chaque mi-temps.\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](31, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](32, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "TEMPS EFFECTIF :");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "\nUn match de futsal se compose de deux p\u00E9riodes de 20 minutes chacune, disput\u00E9es au temps effectif, c\u2019est-\u00E0-dire que le chronom\u00E8tre s\u2019arr\u00EAte lorsque le ballon sort du terrain.\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](37, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "TACLES :");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "\nLes tacles ne sont pas autoris\u00E9s en futsal, mais les joueurs sont autoris\u00E9s \u00E0 glisser sur le terrain, par exemple pour emp\u00EAcher le ballon de sortir. Pour qu\u2019un tel glissement soit consid\u00E9r\u00E9 comme une faute, l\u2019adversaire du joueur qui fait le tacle doit \u00EAtre en possession du ballon. Les arbitres ne sifflent pas de faute sur un glissement si l\u2019adversaire n\u2019est pas en possession du ballon.\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](41, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](42, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "CARTONS ROUGES :");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "\nSi un joueur est expuls\u00E9, son \u00E9quipe doit jouer \u00E0 quatre pendant deux minutes, sauf si l\u2019\u00E9quipe adverse marque un but avant que les deux minutes ne se soient \u00E9coul\u00E9es.\nIl s\u2019agit d\u2019un \u00E9l\u00E9ment fondamental du jeu ; il est officiellement plus petit, plus lourd et il rebondit moins qu\u2019un ballon de football classique.\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](46, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](47, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "REMPLACEMENTS ILLIMIT\u00C9S :");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, "\nJusqu\u2019\u00E0 14 joueurs peuvent \u00EAtre utilis\u00E9s au cours d\u2019un match, et il n\u2019y a pas de limite quant au temps pass\u00E9 par un joueur sur le terrain ou sur le banc. Les joueurs doivent entrer sur le terrain et le quitter en traversant la zone de remplacement marqu\u00E9e \u00E0 cet effet, en face des bancs des rempla\u00E7ants.\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](51, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](52, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, "RENTR\u00C9ES DE TOUCHE :");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "\nPour reprendre le jeu lorsque le ballon a franchi la ligne de touche, la rentr\u00E9e de touche se fait au pied depuis la ligne de touche ou depuis l\u2019arc de cercle de coin. Le ballon doit \u00EAtre immobile sur la ligne de touche et les pieds de l\u2019ex\u00E9cutant ne doivent pas franchir la ligne.\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["p[_ngcontent-%COMP%] {\n    text-align: justify;  \n}\n\n.main-content[_ngcontent-%COMP%] {\n    width: 100%;\n    padding: 20px;\n    min-height: 100vh;\n    transition: all 0.3s;}\n\nh1[_ngcontent-%COMP%] {\n    overflow: hidden; \n    border-right: .15em solid black; \n    white-space: nowrap; \n    margin: 0 auto; \n    letter-spacing: .15em; \n    animation: \n      typing 3.5s steps(40, end),\n      blink-caret .75s step-end infinite;\n    text-transform: uppercase;\n  }\n\n@keyframes typing {\n    from { width: 0 }\n    to { width: 100% }\n  }\n\n\n\n@keyframes blink-caret {\n    from, to { border-color: transparent }\n    50% { border-color: black; }\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbG9pcy9sb2lzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxtQkFBbUI7QUFDdkI7O0FBRUE7SUFDSSxXQUFXO0lBQ1gsYUFBYTtJQUNiLGlCQUFpQjtJQUNqQixvQkFBb0IsQ0FBQzs7QUFFekI7SUFDSSxnQkFBZ0IsRUFBRSw0REFBNEQ7SUFDOUUsK0JBQStCLEVBQUUseUJBQXlCO0lBQzFELG1CQUFtQixFQUFFLHVDQUF1QztJQUM1RCxjQUFjLEVBQUUsc0RBQXNEO0lBQ3RFLHFCQUFxQixFQUFFLHFCQUFxQjtJQUM1Qzs7d0NBRW9DO0lBQ3BDLHlCQUF5QjtFQUMzQjs7QUFFQTtJQUNFLE9BQU8sU0FBUztJQUNoQixLQUFLLFlBQVk7RUFDbkI7O0FBRUEsaUNBQWlDOztBQUNqQztJQUNFLFdBQVcsMEJBQTBCO0lBQ3JDLE1BQU0sbUJBQW1CLEVBQUU7RUFDN0IiLCJmaWxlIjoic3JjL2FwcC9sb2lzL2xvaXMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbInAge1xuICAgIHRleHQtYWxpZ246IGp1c3RpZnk7ICBcbn1cblxuLm1haW4tY29udGVudCB7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgcGFkZGluZzogMjBweDtcbiAgICBtaW4taGVpZ2h0OiAxMDB2aDtcbiAgICB0cmFuc2l0aW9uOiBhbGwgMC4zczt9XG4gIFxuaDEge1xuICAgIG92ZXJmbG93OiBoaWRkZW47IC8qIEVuc3VyZXMgdGhlIGNvbnRlbnQgaXMgbm90IHJldmVhbGVkIHVudGlsIHRoZSBhbmltYXRpb24gKi9cbiAgICBib3JkZXItcmlnaHQ6IC4xNWVtIHNvbGlkIGJsYWNrOyAvKiBUaGUgdHlwd3JpdGVyIGN1cnNvciAqL1xuICAgIHdoaXRlLXNwYWNlOiBub3dyYXA7IC8qIEtlZXBzIHRoZSBjb250ZW50IG9uIGEgc2luZ2xlIGxpbmUgKi9cbiAgICBtYXJnaW46IDAgYXV0bzsgLyogR2l2ZXMgdGhhdCBzY3JvbGxpbmcgZWZmZWN0IGFzIHRoZSB0eXBpbmcgaGFwcGVucyAqL1xuICAgIGxldHRlci1zcGFjaW5nOiAuMTVlbTsgLyogQWRqdXN0IGFzIG5lZWRlZCAqL1xuICAgIGFuaW1hdGlvbjogXG4gICAgICB0eXBpbmcgMy41cyBzdGVwcyg0MCwgZW5kKSxcbiAgICAgIGJsaW5rLWNhcmV0IC43NXMgc3RlcC1lbmQgaW5maW5pdGU7XG4gICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcbiAgfVxuXG4gIEBrZXlmcmFtZXMgdHlwaW5nIHtcbiAgICBmcm9tIHsgd2lkdGg6IDAgfVxuICAgIHRvIHsgd2lkdGg6IDEwMCUgfVxuICB9XG4gIFxuICAvKiBUaGUgdHlwZXdyaXRlciBjdXJzb3IgZWZmZWN0ICovXG4gIEBrZXlmcmFtZXMgYmxpbmstY2FyZXQge1xuICAgIGZyb20sIHRvIHsgYm9yZGVyLWNvbG9yOiB0cmFuc3BhcmVudCB9XG4gICAgNTAlIHsgYm9yZGVyLWNvbG9yOiBibGFjazsgfVxuICB9XG5cbiJdfQ== */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](LoisComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-lois',
+                templateUrl: './lois.component.html',
+                styleUrls: ['./lois.component.css']
+            }]
+    }], function () { return []; }, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/prepa-physique/prepa-physique.component.ts":
+/*!************************************************************!*\
+  !*** ./src/app/prepa-physique/prepa-physique.component.ts ***!
+  \************************************************************/
+/*! exports provided: PrepaPhysiqueComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PrepaPhysiqueComponent", function() { return PrepaPhysiqueComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_material_expansion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material/expansion */ "./node_modules/@angular/material/fesm2015/expansion.js");
+
+
+
+class PrepaPhysiqueComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+PrepaPhysiqueComponent.ɵfac = function PrepaPhysiqueComponent_Factory(t) { return new (t || PrepaPhysiqueComponent)(); };
+PrepaPhysiqueComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PrepaPhysiqueComponent, selectors: [["app-prepa-physique"]], decls: 213, vars: 0, consts: [[1, "main-content"], [1, "text"], ["src", "./assets/images/etirements.jpg", "width", "350px;"], [1, "mat-elevation-z0"], [1, "panel"], ["src", "./assets/images/pompes.png", "width", "350px;", 1, "imgprepa"], ["src", "./assets/images/abdos.jpg", "width", "350px;", 1, "imgprepa"], ["src", "./assets/images/abdos2.jpg", "width", "350px;", 1, "imgprepa"], ["src", "./assets/images/quadri.jpg", "width", "350px;", 1, "imgprepa"], ["src", "./assets/images/burpees.jpg", "width", "350px;", 1, "imgprepa"]], template: function PrepaPhysiqueComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "Pr\u00E9paration physique");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "\nObjectif : Pr\u00E9pa pr\u00E9-saison ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "\nAfin de pr\u00E9parer au mieux la saison prochaine, nous proposons aux joueurs qui le souhaitent de se remettre en forme progressivement,");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, " de remettre son corps dans une dynamique sportive adapt\u00E9e afin que la reprise futsallistique ne soit pas entrav\u00E9e par le manque d\u2019activit\u00E9 sportive que nous avons connus ces derniers mois notamment \u00E0 cause du COVID 19.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "\nPour cela nous vous proposons quelques exercices de remises de forme au travers d\u2019un calendrier mais aussi quelques conseils d\u2019hygi\u00E8ne de vie pour ceux qui souhaitent perdre quelques kg de masse graisseuse. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "\nPour rappel, nous ne sommes qu\u2019un club b\u00E9n\u00E9vole, familiale, et n\u2019obligeons en aucun cas les licenci\u00E9s \u00E0 suivre ce qui suit. Cela se fait sur la base du volontariat. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, " Le plaisir d\u2019\u00EAtre ensemble et de passer de bons moments collectifs passera par les victoires ! ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "Forza le FCS !!!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "\nCalendrier de remise en forme : ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "\nChaque s\u00E9ance doit \u00EAtre termin\u00E9e par une s\u00E9ance d\u2019\u00E9tirements ! Nous y tenons, cela est important. N\u2019oubliez pas : ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](24, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "Un muscle bien \u00E9tir\u00E9 est un muscle qui r\u00E9agit mieux aux efforts et est donc plus performant");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "Un muscle bien \u00E9tir\u00E9 est un muscle qui r\u00E9cup\u00E8re mieux ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Un muscle bien \u00E9tir\u00E9 est un muscle qui se blesse moins");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](31, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "\nExemple (non exhaustif) : ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](34, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](35, "img", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](37, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "mat-accordion");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "mat-expansion-panel", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "mat-expansion-panel-header", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "Semaine 1 ( 27/07/2020 - 02/08/2020 )");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](42, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "Semaine du 27 Juillet 2020");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "Mardi, vendredi, samedi et dimanche : repos");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](47, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, " Lundi, mercredi et jeudi : Footing 30 min puis circuit training.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](49, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](50, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, "Travail des Pectoraux, Triceps brachial:");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](53, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "ul");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, "S\u00E9quence de 20 pompes avec toutes les 5 pompes ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](57, " Maintien en position basse 5 secondes ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](58, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](59, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "Etirements ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](62, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, " A r\u00E9p\u00E9ter 3 fois. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](64, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](65, "img", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](66, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](67, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, " Travail des abdominaux (obliques et grand droit):");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "ul");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](72, "3 fois 1 min de gainage avec 30 secondes de pause entre chaque");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](74, "3 x 20 crunch");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](76, "3 fois 1 min de gainage en \u00AB tour du monde \u00BB avec 30 secondes de pause entre chaque");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](77, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](78, "\nA r\u00E9p\u00E9ter 2 fois.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](79, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](80, "img", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](81, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](82, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](83, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](85, "Travail des quadriceps (pour l\u2019explosivit\u00E9 !)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](86, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](87, "\nPosition de d\u00E9part : debout pied largeur des \u00E9paules\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](88, "ul");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](89, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](90, "10 fentes avant pied droit (on revient \u00E0 chaque fois \u00E0 la position de d\u00E9part)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](91, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](92, "10 fentes avant pied gauche");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](93, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](94, "10 squats (jambes \u00E0 90\u00B0)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](95, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](96, "10 fentes arri\u00E8re pied droit ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](97, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](98, "10 fentes arri\u00E8re pied gauche");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](99, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](100, "10 squats");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](101, "img", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](102, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](103, "\nEtirements et hydratation \u00E0 volont\u00E9 ! ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](104, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](105, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](106, "Bravo belle s\u00E9ance !");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](107, "mat-accordion");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](108, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](109, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](110, "mat-expansion-panel", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](111, "mat-expansion-panel-header", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](112, "Semaine 2 ( 03/08/2020 - 09/08/2020 )");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](113, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](114, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](115, "Semaine du 03 Ao\u00FBt 2020 (1 s\u00E9ance de plus et commencement du fractionn\u00E9)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](116, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](117, "Mardi, jeudi et samedi : repos");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](118, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](119, " Lundi, mercredi, vendredi et dimanche : Footing 25 min suivi sans interruption de fractionn\u00E9 5 fois 30 sec \u00E0 80% et 30 sec tranquille (vous devez donc finir votre footing \u00E0 30 minutes) puis circuit training.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](120, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](121, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](122, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](123, "Travail des Pectoraux, Triceps brachial :");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](124, "ul");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](125, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](126, " S\u00E9quence de 20 pompes avec toutes les 5 pompes ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](127, " Maintien en position basse 5 secondes ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](128, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](129, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](130, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](131, "Etirements");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](132, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](133, " A r\u00E9p\u00E9ter 3 fois ! ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](134, "img", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](135, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](136, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](137, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](138, " Travail des abdominaux (obliques et grand droit):");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](139, "ul");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](140, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](141, "4 fois 1 min de gainage avec 30 secondes de pause entre chaque");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](142, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](143, "3 x 30 crunch");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](144, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](145, " A r\u00E9p\u00E9ter 2 fois ! ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](146, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](147, "img", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](148, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](149, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](150, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](151, "Travail des quadriceps (pour l\u2019explosivit\u00E9 !)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](152, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](153, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](154, " Position de d\u00E9part : debout pied largeur des \u00E9paules ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](155, "ul");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](156, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](157, "15 fentes avant pied droit (on revient \u00E0 chaque fois \u00E0 la position de d\u00E9part)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](158, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](159, "15 fentes avant pied gauche");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](160, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](161, "Chaise contre mur pendant 1 minute (jambe \u00E0 90\u00B0 et sans appui des mains !)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](162, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](163, "15 fentes arri\u00E8re pied droit ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](164, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](165, "15 fentes arri\u00E8re pied gauche");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](166, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](167, "Chaise contre mur pendant 1 minute");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](168, " A r\u00E9p\u00E9ter 2 fois ! ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](169, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](170, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](171, "img", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](172, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](173, " Etirements et hydratation \u00E0 volont\u00E9 ! ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](174, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](175, "Bravo belle s\u00E9ance !");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](176, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](177, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](178, "mat-accordion");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](179, "mat-expansion-panel", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](180, "mat-expansion-panel-header", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](181, "Semaine 3 ( 10/08/2020 - 16/08/2020 )");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](182, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](183, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](184, "Semaine du 10 Ao\u00FBt 2020 (on intensifie le cardio !)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](185, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](186, " Mardi, vendredi et dimanche : Repos");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](187, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](188, " Lundi, mercredi, jeudi et samedi : Footing 30 min suivi sans interruption de fractionn\u00E9 5 fois 45 sec \u00E0 100 % et 30 sec tranquille (vous devez donc finir votre footing \u00E0 37.30 minutes) puis circuit training.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](189, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](190, "Travail cardio : l\u2019id\u00E9e est d\u2019enchainer rapidement les exercices");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](191, "ul");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](192, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](193, "15 Burpees");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](194, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](195, "1 minute de chaise");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](196, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](197, "1 minute de gainage");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](198, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](199, "15 Burpees");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](200, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](201, "20 Squats");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](202, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](203, "30 Crunch");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](204, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](205, "2 minutes de repos puis \u00E0 r\u00E9p\u00E9ter 3 fois !!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](206, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](207, "img", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](208, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](209, " Etirements et hydratation \u00E0 volont\u00E9 ! ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](210, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](211, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](212, "Bravo belle s\u00E9ance !");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, directives: [_angular_material_expansion__WEBPACK_IMPORTED_MODULE_1__["MatAccordion"], _angular_material_expansion__WEBPACK_IMPORTED_MODULE_1__["MatExpansionPanel"], _angular_material_expansion__WEBPACK_IMPORTED_MODULE_1__["MatExpansionPanelHeader"]], styles: ["p[_ngcontent-%COMP%] {\n    text-align: justify;  \n}\n\n.main-content[_ngcontent-%COMP%] {\n    width: 100%;\n    padding: 20px;\n    min-height: 100vh;\n    transition: all 0.3s;}\n\nh1[_ngcontent-%COMP%] {\n    overflow: hidden; \n    border-right: .15em solid black; \n    white-space: nowrap; \n    margin: 0 auto; \n    letter-spacing: .15em; \n    animation: \n      typing 3.5s steps(40, end),\n      blink-caret .75s step-end infinite;\n    text-transform: uppercase;\n  }\n\n@keyframes typing {\n    from { width: 0 }\n    to { width: 100% }\n  }\n\n\n\n@keyframes blink-caret {\n    from, to { border-color: transparent }\n    50% { border-color: black; }\n  }\n\niframe[_ngcontent-%COMP%]{\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJlcGEtcGh5c2lxdWUvcHJlcGEtcGh5c2lxdWUuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLG1CQUFtQjtBQUN2Qjs7QUFFQTtJQUNJLFdBQVc7SUFDWCxhQUFhO0lBQ2IsaUJBQWlCO0lBQ2pCLG9CQUFvQixDQUFDOztBQUV6QjtJQUNJLGdCQUFnQixFQUFFLDREQUE0RDtJQUM5RSwrQkFBK0IsRUFBRSx5QkFBeUI7SUFDMUQsbUJBQW1CLEVBQUUsdUNBQXVDO0lBQzVELGNBQWMsRUFBRSxzREFBc0Q7SUFDdEUscUJBQXFCLEVBQUUscUJBQXFCO0lBQzVDOzt3Q0FFb0M7SUFDcEMseUJBQXlCO0VBQzNCOztBQUVBO0lBQ0UsT0FBTyxTQUFTO0lBQ2hCLEtBQUssWUFBWTtFQUNuQjs7QUFFQSxpQ0FBaUM7O0FBQ2pDO0lBQ0UsV0FBVywwQkFBMEI7SUFDckMsTUFBTSxtQkFBbUIsRUFBRTtFQUM3Qjs7QUFHRjtJQUNJLGNBQWM7SUFDZCxpQkFBaUI7SUFDakIsa0JBQWtCO0FBQ3RCIiwiZmlsZSI6InNyYy9hcHAvcHJlcGEtcGh5c2lxdWUvcHJlcGEtcGh5c2lxdWUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbInAge1xuICAgIHRleHQtYWxpZ246IGp1c3RpZnk7ICBcbn1cblxuLm1haW4tY29udGVudCB7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgcGFkZGluZzogMjBweDtcbiAgICBtaW4taGVpZ2h0OiAxMDB2aDtcbiAgICB0cmFuc2l0aW9uOiBhbGwgMC4zczt9XG4gIFxuaDEge1xuICAgIG92ZXJmbG93OiBoaWRkZW47IC8qIEVuc3VyZXMgdGhlIGNvbnRlbnQgaXMgbm90IHJldmVhbGVkIHVudGlsIHRoZSBhbmltYXRpb24gKi9cbiAgICBib3JkZXItcmlnaHQ6IC4xNWVtIHNvbGlkIGJsYWNrOyAvKiBUaGUgdHlwd3JpdGVyIGN1cnNvciAqL1xuICAgIHdoaXRlLXNwYWNlOiBub3dyYXA7IC8qIEtlZXBzIHRoZSBjb250ZW50IG9uIGEgc2luZ2xlIGxpbmUgKi9cbiAgICBtYXJnaW46IDAgYXV0bzsgLyogR2l2ZXMgdGhhdCBzY3JvbGxpbmcgZWZmZWN0IGFzIHRoZSB0eXBpbmcgaGFwcGVucyAqL1xuICAgIGxldHRlci1zcGFjaW5nOiAuMTVlbTsgLyogQWRqdXN0IGFzIG5lZWRlZCAqL1xuICAgIGFuaW1hdGlvbjogXG4gICAgICB0eXBpbmcgMy41cyBzdGVwcyg0MCwgZW5kKSxcbiAgICAgIGJsaW5rLWNhcmV0IC43NXMgc3RlcC1lbmQgaW5maW5pdGU7XG4gICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcbiAgfVxuXG4gIEBrZXlmcmFtZXMgdHlwaW5nIHtcbiAgICBmcm9tIHsgd2lkdGg6IDAgfVxuICAgIHRvIHsgd2lkdGg6IDEwMCUgfVxuICB9XG4gIFxuICAvKiBUaGUgdHlwZXdyaXRlciBjdXJzb3IgZWZmZWN0ICovXG4gIEBrZXlmcmFtZXMgYmxpbmstY2FyZXQge1xuICAgIGZyb20sIHRvIHsgYm9yZGVyLWNvbG9yOiB0cmFuc3BhcmVudCB9XG4gICAgNTAlIHsgYm9yZGVyLWNvbG9yOiBibGFjazsgfVxuICB9XG5cblxuaWZyYW1le1xuICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICAgIG1hcmdpbi1yaWdodDogYXV0bztcbn1cbiJdfQ== */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](PrepaPhysiqueComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-prepa-physique',
+                templateUrl: './prepa-physique.component.html',
+                styleUrls: ['./prepa-physique.component.css']
             }]
     }], function () { return []; }, null); })();
 
@@ -1836,7 +2065,7 @@ class SommaireComponent {
     }
 }
 SommaireComponent.ɵfac = function SommaireComponent_Factory(t) { return new (t || SommaireComponent)(); };
-SommaireComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SommaireComponent, selectors: [["app-sommaire"]], decls: 68, vars: 0, consts: [[1, "main-content"], [2, "text-align", "center"], ["routerLink", "/home", 1, ""], ["width", "145", "src", "./assets/images/logo.png"], ["routerLink", "/home", 1, "button"], ["routerLink", "/sommaire", 1, "button"], ["routerLink", "/intro", 1, "button"], [1, "mat-elevation-z0"], [1, "panel"], ["routerLink", "/presaison", 1, "button-wrapInfo"], ["routerLink", "/calendrier", 1, "button-wrapInfo"], ["routerLink", "/alimentation", 1, "button"], ["routerLink", "/entrainement", 1, "button-wrap"], ["routerLink", "/defis-technique", 1, "button-wrap"], ["routerLink", "/attaque", 1, "button-wrapInfo"], ["routerLink", "/defense", 1, "button-wrapInfo"], ["routerLink", "/corners", 1, "button-wrapInfo"], ["routerLink", "/coups-francs", 1, "button-wrapInfo"], ["routerLink", "/touches", 1, "button-wrapInfo"], ["routerLink", "/presse", 1, "button-wrapInfo"], ["routerLink", "/revisions", 1, "button"]], template: function SommaireComponent_Template(rf, ctx) { if (rf & 1) {
+SommaireComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SommaireComponent, selectors: [["app-sommaire"]], decls: 71, vars: 0, consts: [[1, "main-content"], [2, "text-align", "center"], ["routerLink", "/home", 1, ""], ["width", "145", "src", "./assets/images/logo.png"], ["routerLink", "/home", 1, "button"], ["routerLink", "/sommaire", 1, "button"], ["routerLink", "/intro", 1, "button"], ["routerLink", "/lois", 1, "button"], [1, "mat-elevation-z0"], [1, "panel"], ["routerLink", "/presaison", 1, "button-wrapInfo"], ["routerLink", "/calendrier", 1, "button-wrapInfo"], ["routerLink", "/alimentation", 1, "button"], ["routerLink", "/entrainement", 1, "button-wrap"], ["routerLink", "/defis-technique", 1, "button-wrap"], ["routerLink", "/attaque", 1, "button-wrapInfo"], ["routerLink", "/defense", 1, "button-wrapInfo"], ["routerLink", "/corners", 1, "button-wrapInfo"], ["routerLink", "/coups-francs", 1, "button-wrapInfo"], ["routerLink", "/touches", 1, "button-wrapInfo"], ["routerLink", "/presse", 1, "button-wrapInfo"], ["routerLink", "/revisions", 1, "button"]], template: function SommaireComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "nav");
@@ -1858,78 +2087,82 @@ SommaireComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Intro");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "hr");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "mat-accordion");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "mat-expansion-panel", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "mat-expansion-panel-header", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "Informations");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "a", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "Lois de jeu");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "a", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Calendrier pr\u00E9-saison");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](18, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "mat-accordion");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "mat-expansion-panel", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "mat-expansion-panel-header", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Informations");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](24, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "a", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "Calendrier saison 2020-2021");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "a", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Calendrier pr\u00E9-saison");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "a", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "Alimentation");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "Calendrier saison 2020-2021");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](30, "hr");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "mat-accordion");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "mat-expansion-panel", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "mat-expansion-panel-header", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "Entrainement");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "a", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Alimentation");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](35, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "a", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Pr\u00E9paration physique");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "mat-accordion");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "mat-expansion-panel", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "mat-expansion-panel-header", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Entrainement");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](38, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](39, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "a", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "Defis technique");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "a", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "Pr\u00E9paration physique");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](41, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](42, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "a", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "Defis technique");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](42, "hr");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "mat-accordion");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "mat-expansion-panel", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "mat-expansion-panel-header", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "Tactique");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](47, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "a", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "Attaques plac\u00E9es");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](45, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "mat-accordion");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "mat-expansion-panel", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "mat-expansion-panel-header", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "Tactique");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](50, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "a", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, "D\u00E9fense");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, "Attaques plac\u00E9es");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](53, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "a", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "Corners");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "D\u00E9fense");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](56, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "a", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, "Coups-francs");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, "Corners");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](59, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "a", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "Touches");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "Coups-francs");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](62, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "a", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](64, "Sorti de presse");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](64, "Touches");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](65, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](65, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "a", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "Revisions");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "Sorti de presse");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](68, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "a", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70, "Revisions");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1957,6 +2190,10 @@ SommaireComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TactiqueComponent", function() { return TactiqueComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_material_expansion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material/expansion */ "./node_modules/@angular/material/fesm2015/expansion.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+
+
 
 
 class TactiqueComponent {
@@ -1965,11 +2202,45 @@ class TactiqueComponent {
     }
 }
 TactiqueComponent.ɵfac = function TactiqueComponent_Factory(t) { return new (t || TactiqueComponent)(); };
-TactiqueComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: TactiqueComponent, selectors: [["app-tactique"]], decls: 2, vars: 0, template: function TactiqueComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "tactique works!");
+TactiqueComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: TactiqueComponent, selectors: [["app-tactique"]], decls: 26, vars: 0, consts: [[1, "main-content"], [1, "mat-elevation-z0"], [1, "panel"], ["routerLink", "/attaque", 1, "button-wrapInfo"], ["routerLink", "/defense", 1, "button-wrapInfo"], ["routerLink", "/corners", 1, "button-wrapInfo"], ["routerLink", "/coups-francs", 1, "button-wrapInfo"], ["routerLink", "/touches", 1, "button-wrapInfo"], ["routerLink", "/presse", 1, "button-wrapInfo"]], template: function TactiqueComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Les tactiques");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3RhY3RpcXVlL3RhY3RpcXVlLmNvbXBvbmVudC5jc3MifQ== */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "mat-accordion");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "mat-expansion-panel", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "mat-expansion-panel-header", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Tactique");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "a", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Attaques plac\u00E9es");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "a", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "D\u00E9fense");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "a", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "Corners");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "a", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "Coups-francs");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "a", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Touches");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Sorti de presse");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, directives: [_angular_material_expansion__WEBPACK_IMPORTED_MODULE_1__["MatAccordion"], _angular_material_expansion__WEBPACK_IMPORTED_MODULE_1__["MatExpansionPanel"], _angular_material_expansion__WEBPACK_IMPORTED_MODULE_1__["MatExpansionPanelHeader"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"]], styles: ["p[_ngcontent-%COMP%] {\n    text-align: justify;  \n}\n\n.main-content[_ngcontent-%COMP%] {\n    width: 100%;\n    padding: 20px;\n    min-height: 100vh;\n    transition: all 0.3s;}\n\nh1[_ngcontent-%COMP%] {\n    overflow: hidden; \n    border-right: .15em solid black; \n    white-space: nowrap; \n    margin: 0 auto; \n    letter-spacing: .15em; \n    animation: \n      typing 3.5s steps(40, end),\n      blink-caret .75s step-end infinite;\n    text-transform: uppercase;\n  }\n\n@keyframes typing {\n    from { width: 0 }\n    to { width: 100% }\n  }\n\n\n\n@keyframes blink-caret {\n    from, to { border-color: transparent }\n    50% { border-color: black; }\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdGFjdGlxdWUvdGFjdGlxdWUuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLG1CQUFtQjtBQUN2Qjs7QUFFQTtJQUNJLFdBQVc7SUFDWCxhQUFhO0lBQ2IsaUJBQWlCO0lBQ2pCLG9CQUFvQixDQUFDOztBQUV6QjtJQUNJLGdCQUFnQixFQUFFLDREQUE0RDtJQUM5RSwrQkFBK0IsRUFBRSx5QkFBeUI7SUFDMUQsbUJBQW1CLEVBQUUsdUNBQXVDO0lBQzVELGNBQWMsRUFBRSxzREFBc0Q7SUFDdEUscUJBQXFCLEVBQUUscUJBQXFCO0lBQzVDOzt3Q0FFb0M7SUFDcEMseUJBQXlCO0VBQzNCOztBQUVBO0lBQ0UsT0FBTyxTQUFTO0lBQ2hCLEtBQUssWUFBWTtFQUNuQjs7QUFFQSxpQ0FBaUM7O0FBQ2pDO0lBQ0UsV0FBVywwQkFBMEI7SUFDckMsTUFBTSxtQkFBbUIsRUFBRTtFQUM3QiIsImZpbGUiOiJzcmMvYXBwL3RhY3RpcXVlL3RhY3RpcXVlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJwIHtcbiAgICB0ZXh0LWFsaWduOiBqdXN0aWZ5OyAgXG59XG5cbi5tYWluLWNvbnRlbnQge1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIHBhZGRpbmc6IDIwcHg7XG4gICAgbWluLWhlaWdodDogMTAwdmg7XG4gICAgdHJhbnNpdGlvbjogYWxsIDAuM3M7fVxuICBcbmgxIHtcbiAgICBvdmVyZmxvdzogaGlkZGVuOyAvKiBFbnN1cmVzIHRoZSBjb250ZW50IGlzIG5vdCByZXZlYWxlZCB1bnRpbCB0aGUgYW5pbWF0aW9uICovXG4gICAgYm9yZGVyLXJpZ2h0OiAuMTVlbSBzb2xpZCBibGFjazsgLyogVGhlIHR5cHdyaXRlciBjdXJzb3IgKi9cbiAgICB3aGl0ZS1zcGFjZTogbm93cmFwOyAvKiBLZWVwcyB0aGUgY29udGVudCBvbiBhIHNpbmdsZSBsaW5lICovXG4gICAgbWFyZ2luOiAwIGF1dG87IC8qIEdpdmVzIHRoYXQgc2Nyb2xsaW5nIGVmZmVjdCBhcyB0aGUgdHlwaW5nIGhhcHBlbnMgKi9cbiAgICBsZXR0ZXItc3BhY2luZzogLjE1ZW07IC8qIEFkanVzdCBhcyBuZWVkZWQgKi9cbiAgICBhbmltYXRpb246IFxuICAgICAgdHlwaW5nIDMuNXMgc3RlcHMoNDAsIGVuZCksXG4gICAgICBibGluay1jYXJldCAuNzVzIHN0ZXAtZW5kIGluZmluaXRlO1xuICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XG4gIH1cblxuICBAa2V5ZnJhbWVzIHR5cGluZyB7XG4gICAgZnJvbSB7IHdpZHRoOiAwIH1cbiAgICB0byB7IHdpZHRoOiAxMDAlIH1cbiAgfVxuICBcbiAgLyogVGhlIHR5cGV3cml0ZXIgY3Vyc29yIGVmZmVjdCAqL1xuICBAa2V5ZnJhbWVzIGJsaW5rLWNhcmV0IHtcbiAgICBmcm9tLCB0byB7IGJvcmRlci1jb2xvcjogdHJhbnNwYXJlbnQgfVxuICAgIDUwJSB7IGJvcmRlci1jb2xvcjogYmxhY2s7IH1cbiAgfVxuXG4iXX0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](TactiqueComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
