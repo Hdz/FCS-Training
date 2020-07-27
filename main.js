@@ -821,7 +821,7 @@ class AttaquesComponent {
     }
 }
 AttaquesComponent.ɵfac = function AttaquesComponent_Factory(t) { return new (t || AttaquesComponent)(); };
-AttaquesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AttaquesComponent, selectors: [["app-attaques"]], decls: 41, vars: 0, consts: [[1, "main-content"], [1, "mat-elevation-z0"], [1, "panel"], ["controls", ""], ["src", "./assets/images/attaque-1.mp4", "type", "video/mp4"], ["src", "./assets/images/attaque-1.webm", "type", "video/webm"], ["src", "./assets/images/attaque-2.mp4", "type", "video/mp4"], ["src", "./assets/images/attaque-2.webm", "type", "video/webm"], ["src", "./assets/images/attaque-3.mp4", "type", "video/mp4"], ["src", "./assets/images/attaque-3.webm", "type", "video/webm"], ["src", "./assets/images/attaque-4.mp4", "type", "video/mp4"], ["src", "./assets/images/attaque-4.webm", "type", "video/webm"], ["src", "./assets/images/attaque-5.mp4", "type", "video/mp4"], ["src", "./assets/images/attaque-5.webm", "type", "video/webm"], ["src", "./assets/images/attaque-6.mp4", "type", "video/mp4"], ["src", "./assets/images/attaque-6.webm", "type", "video/webm"]], template: function AttaquesComponent_Template(rf, ctx) { if (rf & 1) {
+AttaquesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AttaquesComponent, selectors: [["app-attaques"]], decls: 35, vars: 0, consts: [[1, "main-content"], [1, "mat-elevation-z0"], [1, "panel"], ["controls", ""], ["src", "./assets/images/attaque-1.mp4", "type", "video/mp4"], ["src", "./assets/images/attaque-1.webm", "type", "video/webm"], ["src", "./assets/images/attaque-2.mp4", "type", "video/mp4"], ["src", "./assets/images/attaque-2.webm", "type", "video/webm"], ["src", "./assets/images/attaque-3.mp4", "type", "video/mp4"], ["src", "./assets/images/attaque-3.webm", "type", "video/webm"], ["src", "./assets/images/attaque-4.mp4", "type", "video/mp4"], ["src", "./assets/images/attaque-4.webm", "type", "video/webm"], ["src", "./assets/images/attaque-5.mp4", "type", "video/mp4"], ["src", "./assets/images/attaque-5.webm", "type", "video/webm"]], template: function AttaquesComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Les attaques plac\u00E9es");
@@ -871,15 +871,6 @@ AttaquesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "video", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "source", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](34, "source", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "mat-expansion-panel", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "mat-expansion-panel-header", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Attaque Derni\u00E8re \u00C9tape");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "video", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](39, "source", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](40, "source", 15);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
