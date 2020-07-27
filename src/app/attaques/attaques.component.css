@@ -31,3 +31,8 @@ h1 {
     50% { border-color: black; }
   }
 
+  video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
